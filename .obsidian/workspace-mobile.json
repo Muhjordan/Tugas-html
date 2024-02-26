@@ -50,9 +50,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cc1a6aec05862fe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Catatan html.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b444805f79ab7d4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Catatan html.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c55bf2d341d5504",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Catatan Basis Data.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -126,7 +162,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "BASIS DATAA/Basis data/Instalasi & Query awal  database.md",
+            "file": "Catatan Basis Data.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -143,7 +179,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "BASIS DATAA/Basis data/Instalasi & Query awal  database.md",
+            "file": "Catatan Basis Data.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -155,7 +191,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "BASIS DATAA/Basis data/Instalasi & Query awal  database.md"
+            "file": "Catatan Basis Data.md"
           }
         }
       }
@@ -172,12 +208,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb0b12e4ebbf1605",
+  "active": "3c55bf2d341d5504",
   "lastOpenFiles": [
-    "ANALISIS PROGRAM UJIAN/Program Ujian.md",
+    "Catatan html.md",
+    "BASIS DATA.md",
+    "BASIS DATAA/Basis data/Instalasi & Query awal  database.md",
+    "Catatan Basis Data.md",
+    "BASIS DATAA/SELECT LANJUTAN.md",
     "BASIS DATAA/Basis data/CATATAN.md",
     "Pemrograman Web/Struktur HTML.md",
-    "Catatan Basis Data.md",
+    "Pemrograman Web/Pengantar web.md",
+    "Pemrograman Web/Deskripsi dari HTML,CSS,JAVA SCRIPT.md",
+    "HTML/Aset/Image.jpg",
+    "HTML/Pertemuan 1.md",
+    "Pemrograman Web/Deskripsi dari HTML,CSS,JAVA SCRIPT 1.md",
+    "IMG-20240225-WA0032.jpg",
+    "ANALISIS PROGRAM UJIAN/Program Ujian.md",
     "IMG_20240225_164956 1 1 1 1.jpg",
     "Assets/IMG_20240225_164956.md",
     "Assets",
@@ -188,8 +234,6 @@
     "Pemrograman Web/Assets/IMG_20240225_164938.jpg",
     "Pemrograman Web/Assets/IMG_20240117_152202 1.jpg",
     "IMG_20240225_164956.jpg",
-    "IMG_20240225_160315.jpg",
-    "IMG_20240225_154957.jpg",
     "Pemrograman Web/Assets/img100 2.jpg.md",
     "Pemrograman Web/Assets/Pasted image 20240129132103.png.md",
     "IMG_20240121_231530jpg.md",
@@ -197,14 +241,9 @@
     "Pemrograman Web/Pengantar web 1.md",
     "Aset/IMG_20240121_140746.md",
     "Aset",
-    "Pemrograman Web/Deskripsi dari HTML,CSS,JAVA SCRIPT.md",
-    "Pemrograman Web/Pengantar web.md",
-    "BASIS DATAA/Basis data/Instalasi & Query awal  database.md",
     "BASIS DATAA/Basis data/Asset",
-    "BASIS DATAA/SELECT LANJUTAN.md",
     "HTML/HTML",
     "HTML/Aset",
-    "HTML/Pertemuan 1.md",
     "HTML",
     "Html Basis data/Pertemuan 1.md",
     "Pemrograman Web/Assets/Untitled.md",
@@ -213,12 +252,8 @@
     "Pemrograman Web/Assets",
     "BASIS DATAA/Asset",
     "Pengenalan CSS/Aset",
-    "BASIS DATA.md",
     "Pengenalan CSS/Pengenalan CSS.md",
     "Html Basis data/Basis data/CATATAN.md",
-    "Html Basis data/Basis data/Instalasi & Query awal  database.md",
-    "aset/img100 2.jpg.md",
-    "aset/Untitled.md",
-    "aset/Pasted image 20240129132103.png.md"
+    "Html Basis data/Basis data/Instalasi & Query awal  database.md"
   ]
 }
