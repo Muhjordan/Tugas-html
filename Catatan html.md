@@ -1,34 +1,7 @@
-# Pengantar_Web
-Pengantar web adalah
-## MATERI
-
-1. *Definisi* *web*
-	Web adalah
-2. *Protokol* *web*
-3. *Tools* *web*
-## TEMAN KELOMPOK
-- [ ] rehan
-- [ ] Jordan
-- [ ] fahri
-- [ ] 
-> [!Faq] - Jordan 
-> Kakaka
-> Jaja
-
-# HTML
-Htm di mulai dengan tag `<html>`
-# CSS
-Css adalah 
-```Css
-Body {
-Background-color: white;
-}
-```
-[Gambar1|400](image.jpg)
 
 # Deskripsi dari HTML,CSS,JAVA SCRIPT
 # GAMBAR YANG DI DESKRIPSIKAN
-![[IMG-20240225-WA0032.jpg]]
+![gmbr](IMG-20240225-WA0032.jpg)
 # HTML
 
 Adalah kerangka/pondasi dari sebuah rumah/kerangka dari website
@@ -91,7 +64,7 @@ Penjelasan:
 
 Apapun tag yang berada di Tag pembuka `<body>`sampai tag penutup `</body>`akan tampil di web browser
 ## Contoh tampilan di browser!
-![Gambar_Contoh](aset/IMG_20240121_204808.jpg)
+![Gambar_Contoh](IMG_20240121_204808.jpg)
 
 # ANATOMI ELEMEN HTML
 **Elemen** adalah suatu kesatuan dan sebuah Tag yang dimulai dari ==Tag pembuka== hingga ke ==Tag penutup==. **ELEMEN** HTML secara garis besar terdiri atas tiga bagian yaitu **Tag pembuka**, **konten/Isi tag**, dan **tag penutup**
@@ -138,7 +111,7 @@ Contohnya:
 <p><h6>link ig ku 6</h6></p>
 ```
 ### Hasil Program
-![gambar_01](Assets/IMG_20240121_221434.jpg)
+![gambar_01](IMG_20240121_221434.jpg)
 ## Paragraf
 ### `<p>`
 `<p>` dalam html di gunakan untuk membuat paragraf teks
@@ -150,7 +123,7 @@ Contohnya:
 <p>tidak ada yang tahu</p>
 ```
 ### Hasil program
-![gambar](Assets/IMG_20240225_160315.jpg)
+![gambar](IMG_20240225_160315.jpg)
 ### `<b>`
 Tag `<b>` di gunakan untuk menggunakan teks bold/mempertebal teks
 `</b>` tag penutup untuk teks bold
@@ -160,7 +133,7 @@ Tag `<b>` di gunakan untuk menggunakan teks bold/mempertebal teks
 <p>teks ini tidak menggunakan bold
 ```
 ### Hasil program
-![gambar](Assets/IMG_20240121_231408.jpg)
+![gambar](IMG_20240121_231408.jpg)
 
 ### `<u>`
 Tag `<u>` di gunakan untuk memberi teks garis bawah
@@ -171,7 +144,7 @@ Tag `<u>` di gunakan untuk memberi teks garis bawah
 <p>teks ini tidak menggunakan garis bawah</p>
 ```
 ### Hasil program 
-![gambar](Assets/IMG_20240121_231136.jpg)
+![gambar](IMG_20240121_231136.jpg)
 
 ### `<i>`
 Tag `<i>` di gunakan untuk menggunakan teks italic/teks miring
@@ -182,7 +155,7 @@ Tag `<i>` di gunakan untuk menggunakan teks italic/teks miring
 <p>teks ini tidak menggunakan teks italic</p>
 ```
 ### Hasil program
-![gambar](Assets/IMG_20240121_231006.jpg)
+![gambar](IMG_20240121_231006.jpg)
 ### `<br>`
 Tag `<br>` di gunakan untuk membuat Baris baru
 `</br>` teks penutup untuk baris baru
@@ -193,7 +166,7 @@ Tag `<br>` di gunakan untuk membuat Baris baru
 <p>ini tidak menggunakan br<p>
 ```
 ### Hasil program
-![gambar](Assets/IMG_20240121_230836.jpg)
+![gambar](IMG_20240121_230836.jpg)
 
 # Div & Span
 ## `Div`
@@ -216,7 +189,7 @@ adalah elemen HTML yang digunakan untuk memberikan gaya atau mengaplikasikan CSS
 <div>ini juga di buat menggunakan span</div>
 ```
 ### Hasil
-![gambar](Assets/IMG_20240225_164938.jpg)
+![gambar](IMG_20240225_164938.jpg)
 ###  atribut `<align>`
 Atribut `align` di gunakan untuk mengatur perataan teks pada halaman HTML Elemen `<p>` dapat menggunakan nilai atribut `align="left"` akan menghasilkan paragraf dengan perataan teks di sebelah kiri  `align="Right"` akan menghasilkan paragraf dengan perataan teks di sebelah kanan `align="center"` akan menghasilkan paragraf dengan perataan teks di Tengah `align="justify"` akan menghasilkan paragraf dengan perataan teks rata kanan/kiri
 ### Kode program 
@@ -232,7 +205,7 @@ akan menghasilkan paragraf dengan perataan teks di Tengah</p>
 akan menghasilkan paragraf dengan perataan teks rata kanan/kiri</p>
 ```
 ### Hasil Program
-![gambar](Assets/IMG_20240205_111724.jpg)
+![gambar](IMG_20240205_111724.jpg)
 
 ## Komentar
 HTML juga mempunyai tag khusus untuk membuat komentar di HTML kita menggunakan awalan <!--  dan --> penutup
@@ -243,7 +216,7 @@ HTML juga mempunyai tag khusus untuk membuat komentar di HTML kita menggunakan a
 <p>ini bukan komentar,akan tampil di browser</p>
 ```
 ### Hasil program
-![gambar](Assets/IMG_20240122_135844.jpg)
+![gambar](IMG_20240122_135844.jpg)
 
 ## List
 List adalah fungsi dalam HTML yang di gunakan untuk menampilkan daftar dari sesuatu dalam HTML,tag list terdiri dari 2 jenis `<ol>` **Ordered list** (berurutan) dan `<ul>` **Unordered list** (tidak berurutan) ordered list akan di tampilkan dengan angka atau huruf sedangkan Unordered list dengan bulatan atau kotak ataupun simbol lainnya
@@ -269,7 +242,7 @@ List adalah fungsi dalam HTML yang di gunakan untuk menampilkan daftar dari sesu
 </ol>
 ```
 ### Hasil program
-![gambar](Assets/IMG_20240122_140139.jpg)
+![gambar](IMG_20240122_140139.jpg)
 
 ## link
 Link dapat di temukan di hampir semua halaman link/tautan memungkinkan sebuah teks yang ketika di klik akan di pindah ke halaman lainnya HTML menggunakan tag `<a>` untuk keperluan ini link di tulis dengan `<a>` yang merupakan singkatan dari anchor (jangkar)
@@ -284,7 +257,7 @@ Contoh:
 <a href="https://www.instagram.com/m.jordnn?igsh=MXdiaWQ0N251Y2R1dQ==">klik ini untuk ke profil Instagram saya</a>
 ```
 ### Hasil program
-![gmbr](Assets/IMG_20240122_140319.jpg)
+![gmbr](IMG_20240122_140319.jpg)
 
 ## Multimedia
 ### 1.Gambar
@@ -302,10 +275,10 @@ Dalam tag `<img>` terdapat juga atribut `weith` dan `height` untuk mengatur ukur
 <Img src="smile-logo.jpg" alt="logo smile" width="150" height="150">
 ```
 ### Hasil program
-![gmbr](Assets/IMG_20240122_140447.jpg)
+![gmbr](IMG_20240122_140447.jpg)
 
 ### Screenshot Folder
-![gmbr](Assets/IMG_20240122_140628.jpg)
+![gmbr](IMG_20240122_140628.jpg)
 
 ### 2.Video
 Fitur HTML5 mencangkup dukungan audio dan video asli tanpa memerlukan Flash.Tag `<autio>` dan `<video>` pada HTML5 mempermudah penambah media ke dalam halaman media ke dalam halaman web.yang penting untuk di atur pada tag ini adalah atribut `src` yang berfungsi untuk mengidentifikasi sumber media. Selain itu, terdapat pula atribut `controls` agar pengguna dapat memutar dan menjeda media
@@ -314,7 +287,7 @@ Fitur HTML5 mencangkup dukungan audio dan video asli tanpa memerlukan Flash.Tag 
 <video src="video,foto,audio/Parasaya.mp4" controls autoplay width="300" height="200" controls></video>
 ```
 ### Hasil program
-![gmbr](Assets/IMG_20240124_134550.jpg)
+![gmbr](IMG_20240124_134550.jpg)
 
 ### 3. Audio
 
@@ -329,7 +302,7 @@ Seperti yang telah dibahas sebelumnya bahwasanya tag `<audio>` merupakan bagian 
 
 
 >[!Warning] Hasil program
->![gmbr](Assets/IMG_20240124_130819.jpg)
+>![gmbr](IMG_20240124_130819.jpg)
 
 > [!INFO] Penjelasan Audio 
 > Konten berupa teks "Browser anda tidak mendukung elemen `<audio>`." Pada tag `<audio>` akan ditampilkan jika browser tidak mendukung elemen tersebut. Sehingga sebenarnya bagian ini dapat dihilangkan.
@@ -347,7 +320,7 @@ Dalam tag inframe ada beberapa atribut yang penting seperti :
 <iframe src="https://www.smkn7makassar.sch.id/" width="300" height="200">
 ```
 ### Hasil Program
-![gmbr](Assets/IMG_20240124_141049.jpg)
+![gmbr](IMG_20240124_141049.jpg)
 
 ## Tabel 
 Tabel dalam HTML didefinisikan dengan tag `<table>`.
@@ -382,7 +355,7 @@ Tabel dalam HTML didefinisikan dengan tag `<table>`.
 </table>
 ```
 ### Hasil Program
-![gmbr](Assets/IMG_20240129_105307.jpg)
+![gmbr](IMG_20240129_105307.jpg)
 Perhatikan bahwa pada tag `<table>` terdapat sebuah atribut `<border>`. Atribut digunakan untuk memberikan nilai garis tepi dari tabel. Nilai ini dalam ukuran pixel. `border="1"`, berarti kita menginstruksikan kepada web browser bahwa tabel tersebut akan memiliki garis tepi sebesar 1 pixel. Jika tidak ditambahkan, secara default tabel tidak memiliki garis tepi.
 
 Selain itu, terdapat pula beberapa atribut tabel yang penting untuk diketahui yaitu:
@@ -424,7 +397,7 @@ Selain itu, terdapat pula beberapa atribut tabel yang penting untuk diketahui ya
 </table>
 ```
 ### Hasil program
-![gmbr](Assets/IMG_20240129_105948.jpg)
+![gmbr](IMG_20240129_105948.jpg)
 
 > [! info ] Penjelasan Tabel 
 > perhatikan para konten elemen `<td` yang berisi `Rezeky Awalya`, hanya terdapat satu elemen `<td>` disana. Hal ini dikarenakan konten elemen `<td>` sebelumnya yaitu `SMKN 7 Makassar` dan `-` pada data `condrado alain sharon` mengandung atribut `rowspan` dengan bernilai `2` yang secara otomatis mengisi data di bawahnya yakni data `Rezeky awalya`. Nilai `2` menunjukkan bahwa ada dua baris yang digabungkan menjadi satu.
@@ -499,7 +472,7 @@ Umumnya, sebuah website selalu memiliki fitur form, contoh paling umum yang seri
 </form>
 ```
 #### Hasil Program
-![gmbr](Assets/IMG_20240205_115557.jpg)
+![gmbr](IMG_20240205_115557.jpg)
 
 ### 1. Input
 
@@ -680,7 +653,7 @@ contoh :
 
 hasil:
 
-![gmbr](Assets/IMG_20240129_134431.jpg)
+![gmbr](IMG_20240129_134431.jpg)
 
 Beberapa atribut yang digunakan pada contoh di atas yang perlu untuk diperjelas yaitu sebagai berikut:
 - name - digunakan sebagai nama variabel yang akan diproses oleh web server (contoh menggunakan PHP).
