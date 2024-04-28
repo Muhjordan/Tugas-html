@@ -123,7 +123,7 @@ CREATE TABLE jordan_tabel (
 
 - **==TIMESTAMP ==** :Sama seperti DATETIME, tetapi dengan kelebihan diatur secara otomatis saat data dimasukkan atau diubah.
 
-```
+```sql
 CREATE TABLE jorr_tabel (
     tanggal DATE,
     waktu TIME,

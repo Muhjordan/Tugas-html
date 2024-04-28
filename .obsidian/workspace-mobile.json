@@ -81,14 +81,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Catatan Basis Data.md",
+                "file": "BASIS DATAA/SELECT LANJUTAN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28e6250998c08916",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pengenalan CSS/Pengenalan CSS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -162,7 +174,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Catatan Basis Data.md",
+            "file": "Pengenalan CSS/Pengenalan CSS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -179,7 +191,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Catatan Basis Data.md",
+            "file": "Pengenalan CSS/Pengenalan CSS.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -191,7 +203,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Catatan Basis Data.md"
+            "file": "Pengenalan CSS/Pengenalan CSS.md"
           }
         }
       }
@@ -208,53 +220,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c55bf2d341d5504",
+  "active": "28e6250998c08916",
   "lastOpenFiles": [
-    "BASIS DATAA/Basis data/Asset/IMG-20240127-WA0010.jpg",
-    "Catatan Basis Data.md",
-    "Catatan html.md",
-    "HTML/Aset/Image.jpg",
-    "Pemrograman Web/Struktur HTML.md",
-    "BASIS DATA.md",
-    "BASIS DATAA/Basis data/Instalasi & Query awal  database.md",
-    "BASIS DATAA/SELECT LANJUTAN.md",
-    "BASIS DATAA/Basis data/CATATAN.md",
-    "Pemrograman Web/Pengantar web.md",
-    "Pemrograman Web/Deskripsi dari HTML,CSS,JAVA SCRIPT.md",
-    "HTML/Pertemuan 1.md",
-    "Pemrograman Web/Deskripsi dari HTML,CSS,JAVA SCRIPT 1.md",
-    "IMG-20240225-WA0032.jpg",
-    "ANALISIS PROGRAM UJIAN/Program Ujian.md",
-    "IMG_20240225_164956 1 1 1 1.jpg",
-    "Assets/IMG_20240225_164956.md",
-    "Assets",
-    "IMG_20240225_164956 1 1 1.jpg",
-    "IMG_20240225_164956 1 1.jpg",
-    "IMG_20240225_164956 1.jpg",
-    "Pemrograman Web/Assets/IMG_20240225_164956 1.jpg",
-    "Pemrograman Web/Assets/IMG_20240225_164938.jpg",
-    "Pemrograman Web/Assets/IMG_20240117_152202 1.jpg",
-    "IMG_20240225_164956.jpg",
-    "Pemrograman Web/Assets/img100 2.jpg.md",
-    "Pemrograman Web/Assets/Pasted image 20240129132103.png.md",
-    "IMG_20240121_231530jpg.md",
-    "Aset/IMG_20240121_231530jpg.md",
-    "Pemrograman Web/Pengantar web 1.md",
-    "Aset/IMG_20240121_140746.md",
-    "Aset",
-    "BASIS DATAA/Basis data/Asset",
-    "HTML/HTML",
-    "HTML/Aset",
-    "HTML",
-    "Html Basis data/Pertemuan 1.md",
-    "Pemrograman Web/Assets/Untitled.md",
-    "Pemrograman Web/Assets/Untitled.loom",
-    "Pemrograman Web/Assets/IMG-20240123-WA0024.jpg.md",
-    "Pemrograman Web/Assets",
-    "BASIS DATAA/Asset",
-    "Pengenalan CSS/Aset",
+    "Pengenalan CSS/Aset/IMG_20240219_121128_1.jpg",
+    "Pengenalan CSS/Aset/IMG_20240219_121325_1.jpg",
+    "Pengenalan CSS/Aset/IMG_20240219_121128 1_1.jpg",
+    "Pengenalan CSS/Aset/IMG_20240219_121325 1.jpg",
+    "Pengenalan CSS/Aset/IMG_20240219_121325 2.jpg",
+    "Pengenalan CSS/Aset/IMG_20240219_121325.md",
+    "Pengenalan CSS/Aset/IMG_20240304_115808.jpg",
+    "Pengenalan CSS/Aset/IMG_20240304_102954.jpg",
+    "Pengenalan CSS/Aset/IMG_20240304_103819.jpg",
+    "Pengenalan CSS/Aset/IMG_20240304_105145.jpg",
+    "Pengenalan CSS/Aset/IMG_20240304_105847.jpg",
+    "Pengenalan CSS/Aset/IMG_20240304_114444.jpg",
+    "Pengenalan CSS/Aset/IMG_20240427_165600.md",
+    "Pengenalan CSS/Aset/IMG_20240219_132250.md",
+    "IMG_20240219_132250.md",
     "Pengenalan CSS/Pengenalan CSS.md",
-    "Html Basis data/Basis data/CATATAN.md",
-    "Html Basis data/Basis data/Instalasi & Query awal  database.md"
+    "Pengenalan CSS/+.md",
+    "IMG_20240427_165600.md",
+    "Catatan Basis Data.md",
+    "ANALISIS PROGRAM UJIAN/Program Ujian.md",
+    "Semantic HTML/SEMANTIC HTML.pdf",
+    "Semantic HTML/SEMANTIC HTML.md",
+    "Semantic HTML/assets",
+    "Semantic HTML",
+    "Github/Github & Git.pdf",
+    "Github/Github & Git.md",
+    "Github/assets",
+    "Github",
+    "Css Responsive/CSS Responsive.pdf",
+    "Css Responsive/CSS Responsive.md",
+    "Css Responsive/assets",
+    "Css Responsive",
+    "Bootstrap/Bootstrap Framework.pdf",
+    "Bootstrap/Bootstrap Framework.md",
+    "BASIS DATAA/ALTER.md",
+    "BASIS DATAA/SELECT LANJUTAN.md",
+    "BASIS DATAA/Basis data/Instalasi & Query awal  database.md",
+    "BASIS DATA.md",
+    "BASIS DATAA/Basis data/CATATAN.md",
+    "Pemrograman Web/Struktur HTML.md",
+    "Pemrograman Web/Pengantar web.md",
+    "HTML/Pertemuan 1.md",
+    "IMG_20240219_121325.md",
+    "Pemrograman Web/Deskripsi dari HTML,CSS,JAVA SCRIPT.md",
+    "Pemrograman Web/Deskripsi dari HTML,CSS,JAVA SCRIPT 1.md",
+    "Catatan html.md"
   ]
 }
