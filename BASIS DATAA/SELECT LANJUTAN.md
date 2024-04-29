@@ -8,7 +8,7 @@ SELECT warna,pemilik FROM mobil WHERE warna="Hitam" AND pemilik="Ibrahim";
 SELECT warna,pemilik FROM mobil WHERE warna="Hitam" AND pemilik="Jordan";
 ```
 ## Hasil Program
-![[IMG_20240220_143229.jpg]]
+![gambar](IMG_20240220_143229.jpg)
 ## Analisis
 `SELECT warna, pemilik`: Pernyataan SELECT ini menentukan kolom-kolom mana yang akan diambil dari tabel "mobil", yaitu kolom "warna" dan "pemilik".
 
@@ -27,7 +27,8 @@ SELECT warna,pemilik FROM mobil WHERE warna="Hitam" OR pemilik="Ibrahim";
 select warna,pemilik from mobil where warna="Hitam" OR pemilik="Jordan";
 ```
 ## Hasil Program
-![[IMG_20240220_143937.jpg]]
+![gambar](IMG_20240220_143937.jpg)
+
 ## Analisis
 `SELECT warna, pemilik`: Pernyataan SELECT menentukan kolom mana yang akan diambil dari tabel "mobil", yaitu kolom "warna" dan "pemilik".
 
@@ -46,7 +47,8 @@ SELECT * FROM mobil WHERE harga_rental BETWEEN 100000 AND 200000;
 select * from mobil where harga_rental BETWEEN 100000 AND 150000;
 ```
 ## Hasil Program
-![[IMG_20240220_144004.jpg]]
+![gambar](IMG_20240220_144004.jpg)
+
 ## Analisis
 `SELECT` : Pernyataan SELECT ini menunjukkan bahwa kita akan mengambil semua kolom dari tabel "mobil".
 
@@ -65,7 +67,8 @@ SELECT * FROM mobil WHERE harga_rental NOT BETWEEN 100000 AND 200000;
 select * from mobil where harga_rental NOT BETWEEN 100000 AND 150000;
 ```
 ## Hasil Program
-![[IMG_20240220_144257.jpg]]
+![gambar](IMG_20240220_144257.jpg)
+
 ## Analisis
 `SELECT` : Pernyataan SELECT ini menunjukkan bahwa kita akan mengambil semua kolom dari tabel "mobil".
 
@@ -84,7 +87,8 @@ SELECT FROM * mobil WHERE harga_rental <= 50000;
 select * from mobil where harga_rental <= 100000;
 ```
 ## Hasil Program
-![[IMG_20240220_145125.jpg]]
+![gambar](IMG_20240220_145125.jpg)
+
 ## Analisis
 `SELECT` : Pernyataan SELECT ini menunjukkan bahwa kita akan mengambil semua kolom dari tabel "mobil".
 
@@ -103,7 +107,8 @@ SELECT FROM * mobil WHERE harga_rental >= 50000;
 select * from mobil where harga_rental >= 100000;
 ```
 ## Hasil Program
-![[IMG_20240220_145310.jpg]]
+![gambar](IMG_20240220_145310.jpg)
+
 ## Analisis
 `SELECT` : Pernyataan SELECT ini menunjukkan bahwa kita akan mengambil semua kolom dari tabel "mobil".
 
@@ -123,7 +128,8 @@ select * from mobil where harga_rental <> 100000;
 ```
 ## Hasil Program
 
-![[IMG_20240220_145422.jpg]]
+![gambar](IMG_20240220_145422.jpg)
+
 ## Analisis 
 `SELECT` : Ini menunjukkan bahwa kita ingin mengambil semua kolom dari tabel "mobil".
 `FROM mobil`: Menunjukkan bahwa kita ingin mengambil data dari tabel "mobil".
@@ -163,7 +169,8 @@ select * from nama_tabel where data IN('nilai 1','nilai 2');
 select * from mobil where warna IN('pink','biru');
 ```
 ## Hasil
-![[IMG_20240301_074423.jpg]]
+![gambar](IMG_20240301_074423.jpg)
+
 ## Analisis
 `SELECT` : Ini menunjukkan bahwa kita ingin mengambil semua kolom dari tabel "mobil".
 `FROM mobil`: Menunjukkan bahwa kita ingin mengambil data dari tabel "mobil".
@@ -181,7 +188,9 @@ select * from nama_tabel where data IN('nilai 1','nilai 2')AND data 2=nilai 1;
 select * from mobil where warna IN('pink','biru')AND harga_rental=50000;
 ```
 ## Hasil
-![[IMG_20240301_074616.jpg]]
+![gambar](IMG_20240301_074616.jpg)
+
+
 ## Analisis
 `SELECT` : Menunjukkan bahwa kita ingin mengambil semua kolom dari tabel "mobil".
 `FROM mobil`: Menunjukkan bahwa pengambilan data dilakukan dari tabel "mobil".
@@ -200,7 +209,8 @@ select * from nama_tabel where data IN('nilai 1','nilai 2')OR data 2=nilai 1;
 select * from mobil where warna IN('pink','biru')OR harga_rental=50000;
 ```
 ## Hasil
-![[IMG_20240301_074923.jpg]]
+![gambarr](IMG_20240301_074923.jpg)
+
 ## Analisis
 `SELECT` : Pernyataan SELECT ini menunjukkan bahwa kita akan mengambil semua kolom dari tabel "mobil".
 
@@ -219,7 +229,8 @@ select * from nama_tabel where data IN('nilai 1','nilai 2')AND data 2<nilai 1;
 select * from mobil where warna IN('pink','biru')AND harga_rental<100000;
 ```
 ## Hasil
-![[IMG_20240301_075115.jpg]]
+![gambar](IMG_20240301_075115.jpg)
+
 ## Analisis
 `SELECT` : Pernyataan SELECT ini menunjukkan bahwa kita akan mengambil semua kolom dari tabel "mobil".
 
@@ -238,7 +249,8 @@ select * from nama_tabel where data LIKE 'n%';
 select * from mobil where pemilik LIKE 'J%';
 ```
 ## Hasil
-![[IMG_20240301_075443.jpg]]
+![gambar](IMG_20240301_075443.jpg)
+
 ## Analisis
 `SELECT` : Pernyataan SELECT ini menunjukkan bahwa kita akan mengambil semua kolom dari tabel "mobil".
 
@@ -257,7 +269,8 @@ select * from nama_tabel where data LIKE '%n':
 select * from mobil where pemilik LIKE '%n':
 ```
 ## Hasil
-![[IMG_20240301_075519.jpg]]
+![gambar](IMG_20240301_075519.jpg)
+
 ## Analisis
 memilih semua baris dari tabel "mobil" di mana nilai kolom "pemilik" berakhir dengan huruf "n". Operator LIKE digunakan dengan pola pencocokan '%n', di mana '%' cocok dengan nol atau lebih karakter apa pun sebelum "n". Misalnya, jika ada entri dengan nilai kolom "pemilik" adalah "Jordan", entri itu akan dipilih karena akhirannya adalah "n"
 ## Kesimpulan
@@ -272,11 +285,12 @@ Select * from nama_tabel where data LIKE 'J%n';
 Select * from mobil where pemilik LIKE 'J%n';
 ```
 ## Hasil
-![[Screenshot_2024-03-26-13-19-11-92 1.jpg]]
+![gambar](Screenshot_2024-03-26-13-19-11-92.jpg)
 
 ## Analisis
 SELECT * FROM mobil WHERE pemilik LIKE 'J%n' digunakan untuk memilih semua baris dari tabel "mobil" di mana nilai kolom "pemilik" dimulai dengan huruf "J" dan berakhir dengan huruf apapun setelahnya. Dengan menggunakan operator LIKE dan pola pencocokan 'J%n'
 ## Kesimpulan
+Program SQL SELECT * FROM mobil WHERE pemilik LIKE 'J%n' digunakan untuk memilih semua baris dari tabel "mobil" di mana nilai kolom "pemilik" dimulai dengan huruf "J", diikuti oleh nol atau lebih karakter, kemudian diikuti oleh satu karakter apa pun.
 # LIKE(mencari total Karakter)
 ## Struktur Query 
 ```sql
@@ -288,10 +302,12 @@ Select * from mobil where pemilik LIKE 'Jordan':
 ```
 ## Hasil
 
-![[Screenshot_2024-03-26-13-19-54-52 1.jpg]]
+![gambar](Screenshot_2024-03-26-13-19-54-52.jpg)
+
 ## Analisis
 `SELECT * FROM mobil WHERE pemilik LIKE 'Jordan'` digunakan untuk memilih semua baris dari tabel "mobil" di mana nilai kolom "pemilik" sama dengan "Jordan". Dengan menggunakan operator LIKE dan pola pencocokan 'Jordan',
 ## Kesimpulan
+Program SQL SELECT * FROM mobil WHERE pemilik LIKE 'Jordan' digunakan untuk memilih semua baris dari tabel "mobil" di mana nilai kolom "pemilik" adalah tepat "Jordan".
 # LIKE(Kombinasi)
 ## Struktur Query 
 ```sql
@@ -302,10 +318,12 @@ Select * from nama_tabel where data LIKE '_%':
 Select * from mobil where pemilik LIKE 'Jordan%':
 ```
 ## Hasil
-![[Screenshot_2024-03-26-13-20-19-46.jpg]]
+![gambar](Screenshot_2024-03-26-13-20-19-46.jpg)
+
 ## Analisis
 SELECT * FROM mobil WHERE pemilik LIKE 'Jordan%' digunakan untuk memilih semua baris dari tabel "mobil" di mana nilai kolom "pemilik" dimulai dengan kata "Jordan". Dengan menggunakan operator LIKE dan pola pencocokan 'Jordan%', program ini mencari data di mana nilai kolom "pemilik" dimulai dengan kata "Jordan" diikuti oleh karakter apa pun atau tanpa karakter tambahan
 ## Kesimpulan
+Program SQL SELECT * FROM mobil WHERE pemilik LIKE 'Jordan%' digunakan untuk memilih semua baris dari tabel "mobil" di mana nilai kolom "pemilik" dimulai dengan kata "Jordan", diikuti oleh nol atau lebih karakter tambahan.
 # NOT LIKE
 ## Struktur Query 
 ```sql
@@ -317,7 +335,7 @@ Select * from mobil where pemilik NOT LIKE 'J%':
 ```
 ## Hasil
 
-![[Screenshot_2024-03-26-13-32-08-29.jpg]]
+![gambar](Screenshot_2024-03-26-13-32-08-29.jpg)
 ## Analisis
 `SELECT * FROM mobil WHERE pemilik NOT LIKE 'J%'` digunakan untuk memilih semua baris dari tabel "mobil" di mana nilai kolom "pemilik" tidak dimulai dengan huruf "J". Dengan menggunakan operator NOT LIKE dan pola pencocokan 'J%'
 ## Kesimpulan
@@ -332,7 +350,7 @@ select * from nama_tabel where kolom_tabel IS NOT NULL;
 select * from mobil where peminjam IS NULL;
 ```
 ## Hasil 
-![[IMG_20240326_121535.jpg]]
+![gambar](IMG_20240326_121535.jpg)
 ## Kesimpulan
 Program SQL tersebut merupakan perintah SELECT yang digunakan untuk mengambil semua data dari tabel "mobil" di mana nilai dalam kolom "pemilik" mengandung huruf "n" di mana pun posisinya.
 # NOT NULL
@@ -345,7 +363,7 @@ select * from nama_tabel where kolom_tabel IS NOT NULL;
 select * from mobil where peminjam IS NOT NULL;
 ```
 ## Hasil 
-![[IMG_20240326_122023.jpg]]
+![gambar](IMG_20240326_122023.jpg)
 ## Kesimpulan 
 untuk mengambil semua data dari tabel "mobil" di mana kolom "peminjam" tidak kosong (tidak NULL).
 # ORDER BY & LIMIT
@@ -359,7 +377,7 @@ select * from nama_tabel ORDER BY kolom_tabel ASC;
 select * from mobil ORDER BY pemilik ASC;
 ```
 ## Hasil
-![[IMG_20240326_122454.jpg]]
+![gambar](IMG_20240326_122454.jpg)
 ## Kesimpulan
 Perintah SQL tersebut digunakan untuk mengambil semua data dari tabel "mobil" dan mengurutkannya berdasarkan nilai pada kolom "pemilik" secara menaik (ASC).
 ## Struktur Query
@@ -371,7 +389,7 @@ select * from nama_tabel ORDER BY kolom_tabel ASC;
 select * from mobil ORDER BY peminjam ASC;
 ```
 ## Hasil
-![[IMG_20240326_122746.jpg]]
+![gambar](IMG_20240326_122746.jpg)
 ## Kesimpulan 
 Perintah SQL tersebut digunakan untuk mengambil semua data dari tabel "mobil" dan mengurutkannya berdasarkan nilai pada kolom "peminjam" secara menaik (ASC).
 ## LIMIT
@@ -390,7 +408,8 @@ select distinct (kolom_tabel) from nama_tabel;
 select distinct (pemilik) from mobil;
 ```
 ## Hasil
-![[IMG_20240326_130639.jpg]]
+![gambar](IMG_20240326_130639.jpg)
+
 ## Kesimpulan 
 Perintah SQL tersebut digunakan untuk mengambil nilai unik dari kolom "pemilik" dalam tabel "mobil".
 
@@ -399,6 +418,6 @@ Perintah SQL tersebut digunakan untuk mengambil nilai unik dari kolom "pemilik" 
 select distinct (harga_rental) from mobil ORDER BY harga_rental desc;
 ```
 ## Hasil
-![[IMG_20240326_130908.jpg]]
+![gambar](IMG_20240326_130908.jpg)
 ## Kesimpulan 
 Perintah SQL tersebut digunakan untuk mengambil nilai unik dari kolom "harga_rental" dalam tabel "mobil", kemudian hasilnya diurutkan secara menurun (descending) berdasarkan nilai harga_rental.
