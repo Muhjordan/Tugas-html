@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BASIS DATAA/SELECT LANJUTAN.md",
+                "file": "Pesonaindo/Penjelasan Singkat.md",
                 "mode": "source",
                 "source": false
               }
@@ -186,7 +186,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "BASIS DATAA/SELECT LANJUTAN.md",
+            "file": "Pesonaindo/Penjelasan Singkat.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -203,7 +203,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "BASIS DATAA/SELECT LANJUTAN.md",
+            "file": "Pesonaindo/Penjelasan Singkat.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -215,7 +215,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "BASIS DATAA/SELECT LANJUTAN.md"
+            "file": "Pesonaindo/Penjelasan Singkat.md"
           }
         }
       }
@@ -234,21 +234,26 @@
   },
   "active": "3da493d0781f2e0a",
   "lastOpenFiles": [
+    "IMG20240501195205.jpg",
+    "BASIS DATAA/SELECT LANJUTAN.md",
+    "Pesonaindo/Penjelasan Singkat.md",
+    "Pesonaindo/aset/hero-image.jpg",
+    "Pesonaindo/aset/profil.png",
+    "Pesonaindo/aset/three-horizontal-lines.webp",
+    "Pesonaindo/aset/logo.png",
+    "Pesonaindo/aset/img-4.jpg",
+    "Pesonaindo/aset/img-3.jpg",
+    "Pesonaindo/aset/img-2.jpg",
+    "Pesonaindo/aset/img-1.jpg",
+    "Pesonaindo/aset",
+    "Pesonaindo/style.css",
+    "Pesonaindo/index.html",
+    "Pesonaindo",
     "IMG_20240501_090115.jpg",
     "IMG_20240501_085603.jpg",
-    "IMG_20240501_085232.jpg",
-    "IMG_20240501_010033.jpg",
-    "IMG_20240501_005333.jpg",
-    "IMG_20240501_005155.jpg",
-    "IMG_20240429_115453.jpg",
-    "IMG_20240429_115324.jpg",
-    "IMG_20240429_114348.jpg",
-    "IMG_20240429_114205.jpg",
     "BASIS DATAA/ALTER.md",
-    "BASIS DATAA/SELECT LANJUTAN.md",
     "Eksplorasi.md",
     "Pengenalan CSS/Pengenalan CSS.md",
-    "IMG_20240429_083354.jpg",
     "Untitled",
     "Pengenalan CSS/Aset/IMG_20240219_121325.md",
     "Pengenalan CSS/Aset/IMG_20240427_165600.md",
@@ -265,11 +270,7 @@
     "Github/Github & Git.pdf",
     "Github/Github & Git.md",
     "Github/assets",
-    "Github",
-    "Css Responsive/CSS Responsive.pdf",
     "Css Responsive/CSS Responsive.md",
-    "Css Responsive/assets",
-    "Css Responsive",
     "Bootstrap/Bootstrap Framework.md",
     "BASIS DATAA/Basis data/Instalasi & Query awal  database.md",
     "BASIS DATA.md",
@@ -278,7 +279,6 @@
     "Pemrograman Web/Pengantar web.md",
     "HTML/Pertemuan 1.md",
     "IMG_20240219_121325.md",
-    "Pemrograman Web/Deskripsi dari HTML,CSS,JAVA SCRIPT.md",
-    "Pemrograman Web/Deskripsi dari HTML,CSS,JAVA SCRIPT 1.md"
+    "Pemrograman Web/Deskripsi dari HTML,CSS,JAVA SCRIPT.md"
   ]
 }
