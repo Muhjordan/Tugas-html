@@ -421,3 +421,182 @@ select distinct (harga_rental) from mobil ORDER BY harga_rental desc;
 ![gambar](IMG_20240326_130908.jpg)
 ## Kesimpulan 
 Perintah SQL tersebut digunakan untuk mengambil nilai unik dari kolom "harga_rental" dalam tabel "mobil", kemudian hasilnya diurutkan secara menurun (descending) berdasarkan nilai harga_rental.
+## CONCAT_WS
+
+#### Contoh Query 
+```sql
+SELECT CONCAT_WS("-",no_plat,no_mesin,id_mobil) FROM mobil;
+```
+#### Hasil
+![Gambar](IMG_20240429_114205.jpg)
+
+#### Analisis 
+`SELECT`: Digunakan untuk memilih kolom yang akan ditampilkan dalam hasil query.
+
+`CONCAT_WS("-", no_plat, no_mesin, id_mobil)`: Fungsi CONCAT_WS digunakan untuk menggabungkan nilai dari kolom "no_plat", "no_mesin", dan "id_mobil" dengan menggunakan pemisah "-" (dash) di antara setiap nilai. Hasil penggabungan tersebut akan menjadi satu nilai tunggal.
+
+`FROM mobil`: Menunjukkan bahwa tabel yang digunakan dalam query ini adalah "mobil".
+
+Hasil query ini menghasilkan satu kolom yang berisi nilai-nilai hasil penggabungan antara kolom "no_plat", "no_mesin", dan "id_mobil" dari setiap baris dalam tabel "mobil" dengan pemisah "-" di antara setiap nilai.
+#### Kesimpulan 
+Kesimpulannya Pada query ini, `SELECT CONCAT_WS("-", no_plat, no_mesin, id_mobil) FROM mobil;`, dilakukan seleksi data dari tabel "mobil" dengan menggabungkan  antara kolom "no_plat", "no_mesin", dan "id_mobil" menggunakan pemisah "-" (dash).
+
+### AS
+
+#### Contoh Query 
+```sql
+SELECT
+CONCAT_WS("+",pemilik,peminjam) AS
+COLLAB FROM mobil
+```
+#### Hasil
+
+![gambar](IMG_20240429_114348.jpg)
+
+#### Analisis 
+ `SELECT`: Digunakan untuk memilih kolom yang akan ditampilkan dalam hasil query.
+
+`CONCAT_WS("+", pemilik, peminjam) AS COLLAB`: Fungsi CONCAT_WS digunakan untuk menggabungkan nilai dari kolom "pemilik" dan "peminjam" dengan menggunakan pemisah "+" (plus) di antara setiap nilai. Hasil penggabungan tersebut akan menjadi satu nilai . "COLLAB" diberikan pada kolom hasil penggabungan.
+
+`FROM mobil`: Menunjukkan bahwa tabel yang digunakan dalam query ini adalah "mobil".
+
+Hasil query tersebut akan menghasilkan satu kolom tunggal dengan nama "COLLAB" yang berisi nilai-nilai hasil penggabungan antara kolom "pemilik" dan "peminjam" dari setiap baris dalam tabel "mobil" dengan pemisah "+" di antara setiap nilai.
+#### Kesimpulan 
+Pada query SQL ini, `SELECT CONCAT_WS("+", pemilik, peminjam) AS COLLAB FROM mobil;`untuk menyeleksi data dari tabel "mobil" dengan melakukan penggabungan antara kolom "pemilik" dan "peminjam" menggunakan pemisah "+" (plus) sebagai CONCAT_WS. Hasil penggabungan diberi alias "COLLAB" pada hasil query.
+## View
+## Tantangan 
+### 1. Buatkan tabel virtual dan tampilkan datanya yang mana peminjamannya itu tidak ada (NULL)
+
+#### Contoh Query 
+```sql
+CREATE VIEW peminjam NULL AS SELECT id_mobil,no plat, peminjam, harga_rental FROM mobil WHERE peminjam IS NULL;
+```
+
+#### Hasil
+
+
+### 2. update atau ganti salah satu data peminjam dari tabel mobil dengan nilai NULL, tampilkan isi data pada tabel 
+
+#### Contoh Query 
+```Sql
+Update mobil SET peminjam=NULL WHERE id_mobil=3;
+```
+
+#### Hasil
+#### before
+![gambar](IMG_20240429_115324.jpg)
+#### after
+![gambar](IMG_20240429_115453.jpg)
+
+### 3. Berikan Kesimpulan mengapa tabel virtual ini dibuat
+
+
+## AGREGASI
+### Sum
+#### struktur query 
+```
+SELECT SUM(nama_kolom) AS total FROM nama_tabel
+WHERE kondisi_opsional;
+```
+#### Contoh Query 
+```sql
+SELECT SUM(harga_rental) FROM mobil;
+```
+
+#### Hasil
+![gambar](IMG_20240501_005155.jpg)
+
+#### Analisis 
+`SELECT SUM(harga_rental)`: Ini adalah bagian dari pernyataan SELECT yang mengambil nilai total dari kolom "harga_rental". SUM digunakan untuk menjumlahkan nilai-nilai dalam kolom tertentu.
+
+`FROM mobil`: Ini menunjukkan bahwa tabel yang digunakan dalam query ini adalah "mobil". Anda mengambil nilai dari kolom "harga_rental" di dalam tabel ini.
+#### Kesimpulan 
+Kesimpulannya,`SUM` ini akan menampilkan hasil penjumlahan dari seluruh penjumlahan `harga_rental` dari tabel mobil.
+
+### Count
+#### Struktur Query 
+```
+SELECT COUNT(*) AS jumlah FROM nama_tabel WHERE kondisi_opsional;
+```
+#### Contoh Query 
+```sql
+SELECT COUNT(pemilik) FROM mobil;
+```
+
+#### Hasil
+![gambar](IMG_20240501_005333.jpg)
+#### Analisis 
+`SELECT COUNT(pemilik)`: Perintah ini memilih kolom pemilik dari tabel mobil dan menghitung jumlah baris di mana nilai kolom pemilik tidak null.
+`FROM mobil`: Ini menunjukkan bahwa kita sedang memilih data dari tabel bernama mobil.
+#### Kesimpulan 
+jumlah total baris dalam tabel mobil di mana kolom pemilik memiliki nilai yang tidak null. Misalnya, jika tabel mobil memiliki beberapa baris di mana pemilik diisi, perintah ini akan mengembalikan jumlah total baris tersebut.
+#### Contoh Query 
+```sql
+SELECT COUNT(peminjam) FROM mobil;
+```
+
+#### Hasil
+![gambar](IMG_20240501_010033.jpg)
+#### analisis 
+`SELECT COUNT(peminjam)`: Perintah ini memilih kolom peminjam dari tabel mobil dan menghitung jumlah baris di mana nilai kolom peminjam tidak null.
+`FROM mobil`: Ini menunjukkan bahwa kita sedang memilih data dari tabel bernama mobil.
+#### Kesimpulan 
+ jumlah total baris dalam tabel mobil di mana kolom peminjam memiliki nilai yang tidak null. Misalnya, jika tabel mobil memiliki beberapa baris di mana peminjam diisi, perintah ini akan mengembalikan jumlah total baris tersebut.
+
+
+### Min
+#### Struktur Query 
+```sql
+SELECT MIN(nama_kolom) AS nilai_minimum FROM nama_tabel
+
+WHERE kondisi_opsional;
+```
+#### Contoh Query 
+```sql
+SELECT MIN(harga_rental) AS MINIMAL FROM mobil;
+```
+
+#### Hasil
+![[IMG_20240501_085232.jpg]]
+#### analisis 
+- `SELECT COUNT(peminjam)`: Perintah ini memilih kolom `peminjam` dari tabel `mobil` dan menghitung jumlah baris di mana nilai kolom `peminjam` tidak null.
+    
+- `FROM mobil`: Ini menunjukkan bahwa kita sedang memilih data dari tabel bernama `mobil`.
+#### Kesimpulan 
+minimum dari kolom harga_rental dalam tabel mobil. Misalnya, jika terdapat beberapa nilai harga rental dalam tabel mobil, perintah ini akan mengembalikan nilai terkecil di antara mereka.
+### Max
+#### Struktur Query 
+```sql
+SELECT MAX(nama_kolom) AS nilai_maksimum FROM nama tabel
+WHERE kondisi_opsional;
+```
+#### Contoh Query 
+```sql
+SELECT MAX(harga_rental) AS MAXIMAL FROM mobil;
+```
+
+#### Hasil
+![gambar](IMG_20240501_085603.jpg)
+#### analisis 
+- `SELECT MAX(harga_rental) AS MAXIMAL`: Perintah ini memilih nilai maksimum dari kolom harga_rental dalam tabel mobil dan memberikan alias MAXIMAL pada hasilnya.
+- `FROM mobil`: Ini menunjukkan bahwa kita sedang memilih data dari tabel bernama mobil.
+#### Kesimpulan 
+ nilai maksimum dari kolom harga_rental dalam tabel mobil. Misalnya, jika terdapat beberapa nilai harga rental dalam tabel mobil, perintah ini akan mengembalikan nilai terbesar di antara mereka.
+### AVG
+#### Struktur Query 
+```sql
+SELECT AVG(nama_kolom) AS rata_rata FROM nama_tabel
+WHERE kondisi_opsional;
+```
+#### Contoh Query 
+```sql
+SELECT AVG(harga_rental) AS RATA_RATA FROM mobil;
+```
+
+#### Hasil
+![gambar](IMG_20240501_090115.jpg)
+#### analisis 
+- `SELECT AVG(harga_rental) AS RATA_RATA`: Perintah ini menghitung nilai rata-rata dari kolom harga_rental dalam tabel mobil dan memberikan alias RATA_RATA pada hasilnya.
+- `FROM mobil`: Ini menunjukkan bahwa kita sedang memilih data dari tabel bernama mobil.
+#### Kesimpulan
+nilai rata-rata dari kolom harga_rental dalam tabel mobil. Misalnya, jika terdapat beberapa nilai harga rental dalam tabel mobil, perintah ini akan mengembalikan rata-rata dari nilai-nilai tersebut.
