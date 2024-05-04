@@ -471,7 +471,7 @@ CREATE VIEW peminjam NULL AS SELECT id_mobil,no plat, peminjam, harga_rental FRO
 ```
 
 #### Hasil
-
+![gambar](IMG_20240504_151146.jpg)
 
 ### 2. update atau ganti salah satu data peminjam dari tabel mobil dengan nilai NULL, tampilkan isi data pada tabel 
 
