@@ -105,7 +105,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BASIS DATAA/SELECT LANJUTAN.md",
+                "file": "BASIS DATAA/ALTER.md",
                 "mode": "source",
                 "source": false
               }
@@ -186,7 +186,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "BASIS DATAA/SELECT LANJUTAN.md",
+            "file": "BASIS DATAA/ALTER.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -203,7 +203,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "BASIS DATAA/SELECT LANJUTAN.md",
+            "file": "BASIS DATAA/ALTER.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -215,7 +215,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "BASIS DATAA/SELECT LANJUTAN.md"
+            "file": "BASIS DATAA/ALTER.md"
           }
         }
       }
@@ -234,12 +234,12 @@
   },
   "active": "3da493d0781f2e0a",
   "lastOpenFiles": [
+    "BASIS DATAA/Basis data/Instalasi & Query awal  database.md",
+    "BASIS DATAA/SELECT LANJUTAN.md",
     "IMG_20240504_151146.jpg",
     "BASIS DATAA/ALTER.md",
-    "BASIS DATAA/Basis data/Instalasi & Query awal  database.md",
     "Pesonaindo/Penjelasan Singkat.md",
     "IMG20240501195205.jpg",
-    "BASIS DATAA/SELECT LANJUTAN.md",
     "Pesonaindo/aset/hero-image.jpg",
     "Pesonaindo/aset/profil.png",
     "Pesonaindo/aset/three-horizontal-lines.webp",
@@ -252,7 +252,6 @@
     "Pesonaindo/style.css",
     "Pesonaindo/index.html",
     "Pesonaindo",
-    "IMG_20240501_090115.jpg",
     "Eksplorasi.md",
     "Pengenalan CSS/Pengenalan CSS.md",
     "Untitled",

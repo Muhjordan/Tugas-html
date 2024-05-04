@@ -487,12 +487,11 @@ Update mobil SET peminjam=NULL WHERE id_mobil=3;
 ![gambar](IMG_20240429_115453.jpg)
 
 ### 3. Berikan Kesimpulan mengapa tabel virtual ini dibuat
-
-
+Tabel virtual dalam MySQL dibuat untuk menyimpan hasil dari kueri SQL yang kompleks atau berulang, sehingga hasilnya dapat diakses dengan mudah dan efisien
 ## AGREGASI
 ### Sum
 #### struktur query 
-```
+```sql
 SELECT SUM(nama_kolom) AS total FROM nama_tabel
 WHERE kondisi_opsional;
 ```

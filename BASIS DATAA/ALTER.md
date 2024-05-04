@@ -1,4 +1,5 @@
 # ALTER
+# Menambah kolom
 ## Struktur Query 
 ```sql
 ALTER TABLE nama_kolom ADD batas_peminjaman Tipe data AFTER peminjam;
@@ -8,16 +9,19 @@ ALTER TABLE nama_kolom ADD batas_peminjaman Tipe data AFTER peminjam;
 ALTER TABLE mobil ADD batas_peminjaman varchart(10) AFTER peminjam;
 ```
 ### Before
-![[IMG_20240423_134638.jpg]]
+![gambar](IMG_20240423_134638.jpg)
+
 ### After
-![[IMG_20240423_134705.jpg]]
+![gambar](iMG_20240423_134705.jpg)
+
 ### Analisis
 1. `ALTER TABLE mobil`: Memilih tabel yang akan dimodifikasi, yaitu tabel mobil.
 2. `ADD batas_peminjaman varchar(10)`: Menambahkan kolom baru dengan nama batas_peminjaman yang memiliki tipe data varchar dengan panjang maksimum 10 karakter.
 3. `AFTER peminjam`: Menentukan posisi kolom baru setelah kolom peminjam. Ini berarti kolom batas_peminjaman akan ditambahkan setelah kolom peminjam dalam struktur tabel.
 ### kesimpulan 
+Pernyataan SQL tersebut menambahkan kolom baru dengan nama `batas_peminjam` ke tabel `mobil`dengan tipe data karakter variabel dan panjang maksimum 10 karakter, yang akan ditempatkan setelah kolom `peminjam` yang sudah ada di dalam tabel.
 ### Tambahan
-![[IMG_20240423_143456.jpg]]
+![gambar](IMG_20240423_143456.jpg)
 # Mengubah nama kolom
 ## Struktur Query 
 ```sql
@@ -28,13 +32,15 @@ ALTER TABLE Nama_tabel RENAME COLUMN Nama_kolom TO deadline;
 ALTER TABLE mobil RENAME COLUMN batas_peminjaman TO deadline;
 ```
 ### Before
-![[IMG_20240423_134705 2.jpg]]
+![gambar](IMG_20240423_134705.jpg)
+
 ### After
-![[IMG_20240423_143032.jpg]]
+![gambar](IMG_20240423_143032.jpg)
 ### Analisis
 1. `ALTER TABLE mobil`: Memilih tabel yang akan dimodifikasi, yaitu tabel mobil.
 2. `RENAME COLUMN batas_peminjaman TO deadline`: Mengubah nama kolom batas_peminjaman menjadi deadline
 ### Kesimpulan 
+Pernyataan SQL tersebut mengubah nama kolom yang sudah ada dari `batas_peminjam` menjadi `deadline` di dalam tabel `mobil`.
 # Mengubah tipe data kolom
 ## Struktur Query 
 ```sql
@@ -46,12 +52,14 @@ ALTER TABLE mobil MODIFY deadline DATE;
 ```
 
 ### Before
-![[IMG_20240423_143032 1.jpg]]
+![gambar](IMG_20240423_143032 1.jpg)
 ### After
-![[IMG_20240423_145059.jpg]]
+![gambar](IMG_20240423_145059.jpg)
 ### Analisis
 1. `ALTER TABLE mobil`: Memilih tabel yang akan dimodifikasi, yaitu tabel mobil.
 2. `MODIFY deadline DATE`: Mengubah tipe data kolom deadline menjadi DATE.
+### Kesimpulan 
+ALTER TABLE mobil MODIFY deadline DATE;` mengubah tipe data kolom "`deadline`" dalam tabel "`mobil`" menjadi DATE`. Ini memastikan bahwa kolom tersebut hanya dapat menyimpan nilai-nilai tanggal yang valid. Pastikan untuk memeriksa kompatibilitas data yang ada dan lakukan pencadangan data sebelum menjalankan perintah tersebut.
 # Menambahkan constraint
 ## Contoh Query 
 ```sql
@@ -59,9 +67,9 @@ ALTER TABLE mobil
 ALTER deadline SET DEFAULT ’Ready’;
 ```
 ### Before
-![[IMG_20240423_145645.jpg]]
+![gambar](IMG_20240423_145645.jpg)
 ### After
-![[IMG_20240423_145721.jpg]]
+![gambar](IMG_20240423_145721.jpg)
 ### Analisis
 1. `ALTER TABLE`: Ini adalah perintah SQL yang digunakan untuk mengubah struktur tabel.
 2. `mobil`: Ini adalah nama tabel yang ingin Anda ubah strukturnya.
@@ -76,9 +84,9 @@ ALTER TABLE mobil
 ALTER deadline DROP DEFAULT;
 ```
 ### Before
-![[IMG_20240423_152321.jpg]]
+![gambar](IMG_20240423_152321.jpg)
 ### After
-![[IMG_20240423_152430.jpg]]
+![gambar](IMG_20240423_152430.jpg)
 ### Analisis
 1. `ALTER TABLE`: Ini adalah perintah SQL yang digunakan untuk mengubah struktur tabel.
 2. `mobil`: Ini adalah nama tabel yang ingin Anda ubah strukturnya.
@@ -91,9 +99,9 @@ Perintah `ALTER TABLE mobil ALTER deadline DROP DEFAULT;` menghapus nilai defaul
 ALTER TABLE mobil DROP COLUMN deadline;
 ```
 ### Before
-![[IMG_20240423_152430 1.jpg]]
+![gambar](IMG_20240423_152430.jpg)
 ### After
-![[IMG_20240423_153240.jpg]]
+![Igambar](iMG_20240423_153240.jpg)
 ### Analisis
 1. `ALTER TABLE`: Ini adalah perintah SQL yang digunakan untuk mengubah struktur tabel.
 2. `mobil`: Ini adalah nama tabel yang ingin Anda ubah strukturnya.
