@@ -54,9 +54,7 @@ select * from mobil where harga_rental BETWEEN 100000 AND 150000;
 
 `FROM mobil`: Mengidentifikasi tabel yang akan digunakan dalam operasi SELECT, yaitu tabel "mobil".
 
-`WHERE harga_rental BETWEEN 100000 AND 150000`: Klausul WHERE digunakan untuk menerapkan kriteria seleksi pada data yang akan diambil. Dalam hal ini, data akan dipilih jika nilai "harga_rental" berada dalam rentang antara 100.000 dan 150.000.
-## Kesimpulan 
-pernyataan SELECT ini akan mengambil semua kolom dari tabel "mobil" untuk data yang memiliki nilai "harga_rental" dalam rentang antara 100.000 dan 150.000.
+`WHERE harga_rental BETWEEN 100000 AND 150000`: Klausul WHERE digunakan untuk menerapkan kriteria seleksi pada data yang akan diambil. Dalam hal ini itu harga_rental" dalam rentang antara 100.000 dan 150.000.
 # NOTWEEN
 ## Struktur Query
 ```sql
