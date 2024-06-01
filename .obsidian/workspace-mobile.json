@@ -110,9 +110,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d124f008a84b8c21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Materi PHP/Program Pertama PHP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2f6d2d19ba718cb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BASIS DATAA/SELECT LANJUTAN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -186,7 +210,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "BASIS DATAA/ALTER.md",
+            "file": "BASIS DATAA/SELECT LANJUTAN.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -203,7 +227,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "BASIS DATAA/ALTER.md",
+            "file": "BASIS DATAA/SELECT LANJUTAN.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -215,7 +239,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "BASIS DATAA/ALTER.md"
+            "file": "BASIS DATAA/SELECT LANJUTAN.md"
           }
         }
       }
@@ -232,12 +256,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3da493d0781f2e0a",
+  "active": "2f6d2d19ba718cb1",
   "lastOpenFiles": [
-    "BASIS DATAA/Basis data/Instalasi & Query awal  database.md",
+    "Materi PHP/Program Pertama PHP.md",
+    "Eksplorasi.md",
+    "BASIS DATA.md",
     "BASIS DATAA/SELECT LANJUTAN.md",
-    "IMG_20240504_151146.jpg",
+    "BASIS DATAA/Basis data/Instalasi & Query awal  database.md",
     "BASIS DATAA/ALTER.md",
+    "Tugas 7 nomor.md",
+    "Untitled.md",
+    "Materi PHP",
+    "IMG_20240504_151146.jpg",
     "Pesonaindo/Penjelasan Singkat.md",
     "IMG20240501195205.jpg",
     "Pesonaindo/aset/hero-image.jpg",
@@ -252,7 +282,6 @@
     "Pesonaindo/style.css",
     "Pesonaindo/index.html",
     "Pesonaindo",
-    "Eksplorasi.md",
     "Pengenalan CSS/Pengenalan CSS.md",
     "Untitled",
     "Pengenalan CSS/Aset/IMG_20240219_121325.md",
@@ -269,15 +298,11 @@
     "Semantic HTML",
     "Github/Github & Git.pdf",
     "Github/Github & Git.md",
-    "Github/assets",
     "Css Responsive/CSS Responsive.md",
     "Bootstrap/Bootstrap Framework.md",
-    "BASIS DATA.md",
     "BASIS DATAA/Basis data/CATATAN.md",
     "Pemrograman Web/Struktur HTML.md",
     "Pemrograman Web/Pengantar web.md",
-    "HTML/Pertemuan 1.md",
-    "IMG_20240219_121325.md",
-    "Pemrograman Web/Deskripsi dari HTML,CSS,JAVA SCRIPT.md"
+    "HTML/Pertemuan 1.md"
   ]
 }

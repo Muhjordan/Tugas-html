@@ -323,3 +323,6 @@ DROP TABLE Percobaan;
 ```
 ### Hasil
 ![gambar_DeleteTabel](Asset/IMG_20240213_144821.jpg)
+```myql
+
+```
