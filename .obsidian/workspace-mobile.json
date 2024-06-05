@@ -127,9 +127,11 @@
             "id": "2f6d2d19ba718cb1",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "HTML/IMG-GAMBAR-RUMAH.jpg"
+                "file": "Untitled/Pengenalan CSS/Pengenalan CSS.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -208,7 +210,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "HTML/IMG-GAMBAR-RUMAH.jpg",
+            "file": "Untitled/Pengenalan CSS/Pengenalan CSS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -225,7 +227,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "HTML/IMG-GAMBAR-RUMAH.jpg",
+            "file": "Untitled/Pengenalan CSS/Pengenalan CSS.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -237,7 +239,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "HTML/IMG-GAMBAR-RUMAH.jpg"
+            "file": "Untitled/Pengenalan CSS/Pengenalan CSS.md"
           }
         }
       }
@@ -254,20 +256,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f6d2d19ba718cb1",
+  "active": "cb0b12e4ebbf1605",
   "lastOpenFiles": [
+    "Untitled/Pengenalan CSS/Aset/IMG-20240428-WA0066.jpg",
+    "Untitled/Pengenalan CSS/Aset/IMG-20240428-WA0065.jpg",
+    "Untitled/Pengenalan CSS/Aset/IMG-20240428-WA0064.jpg",
+    "Untitled/Pengenalan CSS/Aset/IMG_20240428_201517.jpg",
+    "Untitled/Pengenalan CSS/Aset/IMG_20240428_201402.jpg",
+    "Untitled/Pengenalan CSS/Aset/IMG_20240428_144010.jpg",
+    "Untitled/Pengenalan CSS/Aset/IMG_20240428_143346.jpg",
+    "Untitled/Pengenalan CSS/Aset/IMG_20240304_092923.jpg",
+    "Untitled/Pengenalan CSS/Aset/IMG_20240304_132401.jpg",
+    "Untitled/Pengenalan CSS/Aset/IMG_20240304_222959.jpg",
+    "Untitled/Pengenalan CSS/+.md",
+    "Untitled/Pengenalan CSS/Pengenalan CSS.md",
+    "HTML/IMG-GAMBAR-RUMAH.jpg",
     "BASIS DATAA/ALTER.md",
     "BASIS DATAA/SELECT LANJUTAN.md",
-    "BASIS DATAA/Aset/IMG_20240423_134638.jpg",
-    "BASIS DATAA/Aset/IMG_20240423_134705.jpg",
-    "BASIS DATAA/Aset/IMG_20240423_142110.jpg",
-    "BASIS DATAA/Aset/IMG_20240423_143456.jpg",
-    "BASIS DATAA/Aset/IMG_20240423_143032.jpg",
-    "BASIS DATAA/Aset/IMG_20240423_145059.jpg",
-    "BASIS DATAA/Aset/IMG_20240423_145645.jpg",
-    "BASIS DATAA/Aset/IMG_20240423_145721.jpg",
-    "BASIS DATAA/Aset/IMG_20240423_152321.jpg",
-    "BASIS DATAA/Aset/IMG_20240423_152430.jpg",
     "BASIS DATAA/Aset",
     "ANALISIS PROGRAM UJIAN/Program Ujian.md",
     "Materi PHP/Program Pertama PHP.md",
@@ -298,8 +303,6 @@
     "Github/Github & Git.md",
     "Css Responsive/CSS Responsive.md",
     "Bootstrap/Bootstrap Framework.md",
-    "BASIS DATAA/Basis data/CATATAN.md",
-    "Pemrograman Web/Struktur HTML.md",
-    "Pemrograman Web/Pengantar web.md"
+    "BASIS DATAA/Basis data/CATATAN.md"
   ]
 }
