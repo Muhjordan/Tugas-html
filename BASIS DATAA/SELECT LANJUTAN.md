@@ -9,6 +9,7 @@ SELECT warna,pemilik FROM mobil WHERE warna="Hitam" AND pemilik="Jordan";
 ```
 ## Hasil Program
 ![gambar](IMG_20240220_143229.jpg)
+
 ## Analisis
 `SELECT warna, pemilik`: Pernyataan SELECT ini menentukan kolom-kolom mana yang akan diambil dari tabel "mobil", yaitu kolom "warna" dan "pemilik".
 
@@ -65,6 +66,7 @@ SELECT * FROM mobil WHERE harga_rental NOT BETWEEN 100000 AND 200000;
 select * from mobil where harga_rental NOT BETWEEN 100000 AND 150000;
 ```
 ## Hasil Program
+
 ![gambar](IMG_20240220_144257.jpg)
 
 ## Analisis
