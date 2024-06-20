@@ -76,11 +76,11 @@ cara pengunaan gradient generator
  1. tekan ling ini https://cssgradient.io/
  2. setelah masuk pilih salah satu yang ada di bawah ini jika memilih linier maka gradient akan bergerak dari atas ke bawah
     jika memilih radial maka gradient akan memiliki bentuk lingkaran 
-    ![gambar](IMG-20240428-WA0064.jpg)
-
+    ![gambar](IMG_20240620_151235.jpg)
 3. jika sudah memilih maka atur lah warna di sini setelah sudah memilih warna maka salin lah kode program di bawak ini lalu tempel di background program anda
-4. ![gambar](IMG-20240428-WA0066.jpg)
-![gambar](IMG-20240428-WA0065.jpg)
+4. ![gambar](IMG_20240620_151216.jpg)
+![gambar](IMG_20240620_151938.jpg)
+
 ## Implementasi 
 ```html
 <!DOCTYPE html>
