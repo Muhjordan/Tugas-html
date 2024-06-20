@@ -37,36 +37,36 @@ aturan gaya CSS yang mengatur penampilan elemen paragraf (`<p>`).
 font-size: 20px
 ```
 ### Before
-![gambar](IMG_20240428_201206.jpg)
+![gambar](Aset/IMG_20240428_201206.jpg)
 
 ### After 
-![gambar](IMG_20240428_201302.jpg)
+![gambar](Aset/IMG_20240428_201302.jpg)
 
 ### Before
-![gambar](IMG_20240219_121128.jpg)
+![gambar](Aset/IMG_20240219_121128.jpg)
 
 ### After
-![gambar](iMG_20240219_121325.jpg)
+![gambar](Aset/iMG_20240219_121325.jpg)
 
 ## Border
 ```css
 border: none;
 ```
 ### Before
-![gambar](IMG_20240428_201302.jpg)
+![gambar](Aset/iMG_20240428_201302.jpg)
 
 ### After
-![gambar](IMG_20240428_201402.jpg)
+![gambar](Aset/iMG_20240428_201402.jpg)
 
 ## Font
 ```css
 font-weight: bold;
 ```
 ### Before
-![gambar](IMG_20240428_201402.jpg)
+![gambar](Aset/IMG_20240428_201402.jpg)
 
 #### after
-![gambar](IMG_20240428_201517.jpg)
+![gambar](Aset/IMG_20240428_201517.jpg)
 
 # Cara Pemanggilan CSS
 ## Cara Pemanggilan Secara Eksternal
@@ -152,7 +152,7 @@ Contoh:
 <p style="text-align:center;">menggunakan text align center</p>
 ```
 ### Hasil
-![gambar](IMG_20240304_102954.jpg)
+![gambar](Aset/IMG_20240304_102954.jpg)
 
 ### Kesimpulan
 Program tersebut menggambarkan penggunaan properti CSS text-align untuk mengatur penataan teks pada elemen paragraf (`<p>`). Pada contoh ini, text-align: center; diterapkan, sehingga teks di dalam paragraf akan berada di tengah 
@@ -175,7 +175,7 @@ Menghapus semua dekorasi teks.
 <p style="text-decoration: overline;">menggunakan text decoration underline</p>
 ```
 ### Hasil
-![Gambar](IMG_20240304_103819.jpg)
+![Gambar](Aset/IMG_20240304_103819.jpg)
 
 ### Kesimpulan
 Program tersebut menggunakan properti CSS text-decoration pada elemen paragraf (`<p>`) dengan nilai overline untuk memberikan efek garis di atas teks.
@@ -199,7 +199,8 @@ Tidak ada transformasi teks yang diterapkan.
      <p style="text-transform: uppercase;">menggunakan text transform uppercase</p>
 ```
 ### Hasil
-![Gambar](IMG_20240304_105847.jpg)
+![Gambar](Aset/IMG_20240304_105847.jpg)
+
 ### Kesimpulan
 Program tersebut menggunakan properti CSS text-transform pada elemen paragraf (`<p>`) dengan nilai uppercase untuk mengubah seluruh teks di dalamnya menjadi huruf kapital atau huruf besar.
 ## Text indent
@@ -210,7 +211,7 @@ Program tersebut menggunakan properti CSS text-transform pada elemen paragraf (`
     <p style="text-indent: 50px;">menggunakan text indent 50 pixel</p>
 ```
 ### Hasil
-![Gambar](IMG_20240304_104505.jpg)
+![Gambar](Aset/IMG_20240304_104505.jpg)
 ### Kesimpulan
 Program tersebut menggunakan properti CSS text-indent pada elemen paragraf (`<p>`) dengan nilai 50px. Properti ini digunakan untuk menetapkan indentasi teks pada awal paragraf sebesar 50 piksel dari batas kiri elemen.
 
@@ -224,7 +225,7 @@ Dengan demikian, ketika program dijalankan, teks di dalam paragraf akan dimulai 
 <p style="letter-spacing: 20px;">menggunakan letter spacing 20 pixel</p>
 ```
 ### Hasil
-![Gambar]( IMG_20240304_105145.jpg)
+![Gambar]( Aset/IMG_20240304_105145.jpg)
 
 ### Kesimpulan
 Program tersebut menggunakan properti CSS letter-spacing pada elemen paragraf (`<p>`) dengan nilai 20px. Properti ini mengatur jarak antar huruf dalam teks pada paragraf tersebut.
@@ -234,7 +235,8 @@ Program tersebut menggunakan properti CSS letter-spacing pada elemen paragraf (`
 ```html
 <p style="line-height: 100px;">menggunakan line height  100 pixel</p>
 ```
-![Gambar](IMG_20240304_114444.jpg)
+![Gambar](Aset/IMG_20240304_114444.jpg)
+
 ### Kesimpulan
 Program tersebut menggunakan properti CSS line-height pada elemen paragraf (`<p>`) dengan nilai 100px. Properti ini mengatur tinggi baris atau jarak vertikal antara baris teks dalam paragraf tersebut.
 ## Word spacing
@@ -244,7 +246,7 @@ Properti word-spacing dalam CSS digunakan untuk mengatur jarak antara kata-kata 
 <p style="word-spacing: 15px;">menggunakan word spacing 15 pixel</p>
 ```
 ### Hasil
-![Gambar](IMG_20240427_141826.jpg)
+![Gambar](Aset/IMG_20240427_141826.jpg)
 
 ### Kesimpulan
 Program tersebut menggunakan properti CSS word-spacing pada elemen paragraf (`<p>|) dengan nilai 15px. Properti ini mengatur jarak antar kata dalam teks pada paragraf tersebut.
@@ -272,7 +274,7 @@ Dengan nilai word-spacing: 15px;, program menciptakan efek peningkatan jarak ant
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240304_115808.jpg)
+![gambar](Aset/iMG_20240304_115808.jpg)
 
 ### Kesimpulan
 Program tersebut mencoba mengatur background image pada elemen paragraf (`<p>`) dengan menggunakan CSS.
@@ -298,8 +300,7 @@ Program tersebut mencoba mengatur background image pada elemen paragraf (`<p>`) 
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240304_120339.jpg)
-
+![gambar](Aset/IMG_20240304_120339.jpg)
 ### Kesimpulan 
 Program di atas merupakan halaman HTML yang menggunakan CSS untuk menetapkan background image pada elemen paragraf (p). Background image diambil dari file 'ml2.jpg' yang berada dalam direktori 'Video, Foto, Audio'. Tinggi (height) dari paragraf diatur sebesar 100 viewport height (100vh) agar background image terisi seluruh layar. Ukuran background image ditetapkan sebesar 50 piksel (50px) untuk lebar dan tinggi dengan menggunakan properti background-size. Kesimpulan dari program ini adalah untuk menampilkan background image pada halaman web dengan ukuran yang telah ditentukan.
 ## Background-Repeat
@@ -326,7 +327,9 @@ Program di atas merupakan halaman HTML yang menggunakan CSS untuk menetapkan bac
   </body>
 </html>
 ```
-### Hasil ![gambar](IMG_20240304_122501.jpg)
+### Hasil 
+![gambar](Aset/IMG_20240304_122501.jpg)
+
 ### Kesimpulan 
 program tersebut menghasilkan latar belakang gambar pada elemen `<p>` dengan ukuran 50x50 piksel dan tinggi elemen yang mengisi 100% tinggi viewport.
 ## Background-attechment
@@ -355,7 +358,8 @@ program tersebut menghasilkan latar belakang gambar pada elemen `<p>` dengan uku
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240304_122957.jpg)
+![gambar](Aset/IMG_20240304_122957.jpg)
+
 ## Kesimpulan 
 program tersebut menghasilkan latar belakang gambar pada elemen `<p>` dengan ukuran 50x50 piksel, tinggi elemen yang mengisi 100% tinggi viewport, tanpa pengulangan gambar, dan gambar tetap terlihat saat menggulir halaman.
 ## Background-Position
@@ -392,7 +396,8 @@ program tersebut menghasilkan latar belakang gambar pada elemen `<p>` dengan uku
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240304_123635.jpg)
+![gambar](Aset/IMG_20240304_123635.jpg)
+
 ### Kesimpulan 
 program tersebut menghasilkan latar belakang gambar pada elemen `<p>` dengan ukuran 50x50 piksel, tinggi elemen yang mengisi 100% tinggi viewport, tanpa pengulangan gambar, gambar tetap terlihat saat menggulir halaman, dan posisi gambar ditengah
 # MATERI FONT
@@ -417,7 +422,8 @@ program tersebut menghasilkan latar belakang gambar pada elemen `<p>` dengan uku
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240304_132029.jpg)
+![gambar](Aset/IMG_20240304_132029.jpg)
+
 ### Kesimpulan 
 program tersebut menghasilkan teks "hallo world" dengan ukuran font sebesar 70 piksel pada elemen `<p>`.
 ## Font-Style
@@ -443,7 +449,8 @@ program tersebut menghasilkan teks "hallo world" dengan ukuran font sebesar 70 p
 ```
 
 ### Hasil
-![gambar](IMG_20240304_132401.jpg)
+![gambar](Aset/IMG_20240304_132401.jpg)
+
 ### Kesimpulan 
 memiliki satu paragraf dengan teks "hallo world". Di dalam elemen `<style>`, properti font-size diterapkan pada elemen `<p>` untuk mengatur ukuran teks sebesar 70 piksel, dan properti font-style digunakan untuk memberikan gaya miring pada teks. Akibatnya, teks "hallo world" akan ditampilkan dalam ukuran besar dan gaya miring.
 ## Font-weight
@@ -468,7 +475,8 @@ memiliki satu paragraf dengan teks "hallo world". Di dalam elemen `<style>`, pro
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240304_132516.jpg)
+![gambar](Aset/IMG_20240304_132516.jpg)
+
 ### Kesimpulan 
 memiliki satu paragraf dengan teks "hallo world". Di dalam elemen `<style>`, properti font-size diterapkan pada elemen `<p>` untuk mengatur ukuran teks sebesar 70 piksel, properti `font-style` digunakan untuk memberikan gaya miring pada teks, dan properti `font-weight` digunakan untuk membuat teks menjadi tebal. Akibatnya, teks "hallo world" akan ditampilkan dalam ukuran besar, gaya miring, dan tebal.
 ## Font-family
@@ -480,7 +488,8 @@ memiliki satu paragraf dengan teks "hallo world". Di dalam elemen `<style>`, pro
     }
 ```
 ### Hasil
-![gambar](IMG_20240304_132840.jpg)
+![gambar](Aset/IMG_20240304_132840.jpg)
+
 ### Kesimpulan 
 untuk mengatur font family dari elemen `<p>` menjadi Times New Roman. Sehingga, teks yang ditampilkan dalam elemen `<p> `akan menggunakan font Times New Roman.
 # Box Model
@@ -511,7 +520,8 @@ Properti ini menentukan lebar (width) dari elemen. Seperti height, Anda dapat me
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240304_134242.jpg)
+![gambar](Aset/IMG_20240304_134242.jpg)
+
 ### Kesimpulan 
 untuk mengatur gaya tombol. Tombol tersebut memiliki lebar sebesar 75 piksel dan tinggi sebesar 25 piksel. Sehingga, saat halaman web dijalankan, tombol "Klik Aku!" akan muncul dengan ukuran yang telah ditentukan.
 ## Materi Border 
@@ -536,7 +546,8 @@ border-width adalah properti CSS yang digunakan untuk menentukan lebar dari bord
 </html>
 ```
 #### Hasil
-![gambar](IMG_20240304_135438.jpg)
+![gambar](Aset/IMG_20240304_135438.jpg)
+
 ### Kesimpulan 
 untuk mengatur ukuran border tombol. Dalam hal ini, border tombol diberi lebar sebesar 2 piksel. Sehingga, saat halaman web dijalankan, tombol "Klik Aku!" akan muncul dengan border yang memiliki lebar 2 piksel.
 ## Border-style
@@ -565,7 +576,8 @@ untuk mengatur ukuran border tombol. Dalam hal ini, border tombol diberi lebar s
 </html>
 ```
 #### Hasil
-![gambar](IMG_20240304_140646.jpg)
+![gambar](Aset/IMG_20240304_140646.jpg)
+
 ### Kesimpulan 
 untuk mengatur gaya border tombol. Dalam hal ini, gaya border tombol diatur sebagai "double", yang berarti tombol akan memiliki dua garis border yang saling berdempetan. Sehingga, saat halaman web dijalankan, tombol "Klik Aku!" akan muncul dengan border ganda.
 ## Border-color
@@ -590,7 +602,8 @@ border-color adalah properti CSS yang digunakan untuk menentukan warna dari bord
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240427_150534.jpg)
+![gambar](Aset/IMG_20240427_150534.jpg)
+
 ### Kesimpulan 
 Program di atas menggunakan CSS untuk mengatur warna border tombol. Dalam hal ini, warna border tombol diatur sebagai "green". Sehingga, saat halaman web dijalankan, tombol "Klik Aku!" akan muncul dengan border berwarna hijau.
 ## Border-radius
@@ -619,7 +632,8 @@ Contoh penggunaan:
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240304_142826.jpg)
+![gambar](Aset/iMG_20240304_142826.jpg)
+
 ### Kesimpulan 
 Program di atas menggunakan CSS untuk menentukan radius sudut border tombol. Dalam hal ini, radius sudut border diatur sebagai "15px" untuk sudut kiri atas dan sudut kanan bawah, serta "5px" untuk sudut kanan atas dan sudut kiri bawah. Sehingga, saat halaman web dijalankan, tombol "Klik Aku!" akan muncul dengan border yang memiliki radius sudut yang telah ditentukan.
 ## Tantangan Box Model
@@ -704,7 +718,7 @@ button {
 
 ```margin-left: 80px;```: Memberikan jarak kiri sebesar 80 piksel pada tombol.
 ### Hasil
-![gambar](IMG_20240427_165600.jpg)
+![gambar](Aset/iMG_20240427_165600.jpg)
 
 # Materi Padding
 ## Padding-right
@@ -733,7 +747,7 @@ button {
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240304_222959.jpg)
+![gambar](Aset/iMG_20240304_222959.jpg)
 ### Kesimpulan
 Program di atas menggunakan CSS untuk menentukan jarak padding sebelah kanan dari tombol. Dalam hal ini, padding-right diatur sebagai "100px", yang berarti akan ada jarak sebesar 100 piksel di sebelah kanan tombol "Klik Aku!". Sehingga, saat halaman web dijalankan, tombol tersebut akan muncul dengan jarak padding yang telah ditentukan di sebelah kanan
 ## Padding-left
@@ -762,7 +776,7 @@ Program di atas menggunakan CSS untuk menentukan jarak padding sebelah kanan dar
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240304_223026.jpg)
+![gambar](Aset/IMG_20240304_223026.jpg)
 
 ### Kesimpulan
 Program di atas menggunakan CSS untuk menentukan jarak padding sebelah kiri dari tombol. Dalam hal ini, padding-left diatur sebagai "75px", yang berarti akan ada jarak sebesar 75 piksel di sebelah kiri tombol "Klik Aku!". Sehingga, saat halaman web dijalankan, tombol tersebut akan muncul dengan jarak padding yang telah ditentukan di sebelah kiri.
@@ -793,7 +807,7 @@ margin adalah properti CSS yang digunakan untuk menentukan ruang atau jarak anta
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240305_071323.jpg)
+![gambar](Aset/IMG_20240305_071323.jpg)
 
 ### Kesimpulan
 membuat tombol dengan teks "Klik Disini!". Tombol tersebut memiliki gaya CSS yang menambahkan jarak bawah sebesar 75 piksel menggunakan properti padding-bottom. Dokumen HTML ini sederhana dan hanya terdiri dari satu tombol yang ditampilkan di halaman web.
@@ -823,7 +837,7 @@ membuat tombol dengan teks "Klik Disini!". Tombol tersebut memiliki gaya CSS yan
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240305_071503.jpg)
+![gambar](Aset/IMG_20240305_071503.jpg)
 
 ### Kesimpulan
 tombol dengan teks "Klik Disini!". Tombol tersebut memiliki gaya CSS yang menambahkan jarak atas sebesar 75 piksel menggunakan properti `padding-top`. Ini akan menggeser teks ke bawah sejauh 75 piksel dari posisi normalnya di dalam tombol. Dokumen HTML ini sederhana dan hanya terdiri dari satu tombol yang ditampilkan di halaman web.
@@ -855,7 +869,7 @@ tombol dengan teks "Klik Disini!". Tombol tersebut memiliki gaya CSS yang menamb
 ```
 
 ### Hasil
-![gambar](IMG_20240305_071600.jpg)
+![gambar](Aset/IMG_20240305_071600.jpg)
 
 ### Kesimpulan
 tombol dengan teks "Klik Disini!". Tombol tersebut memiliki gaya CSS yang menambahkan jarak kiri sebesar 75 piksel menggunakan properti `margin-left`. Ini akan memindahkan tombol sejauh 75 piksel dari batas kiri halaman web. Dokumen HTML ini sederhana dan hanya terdiri dari satu tombol yang ditampilkan di halaman web.
@@ -885,7 +899,8 @@ tombol dengan teks "Klik Disini!". Tombol tersebut memiliki gaya CSS yang menamb
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240305_071729.jpg)
+![gambar](Aset/IMG_20240305_071729.jpg)
+
 ### Kesimpulan
 tombol dengan teks "Klik Disini!". Tombol tersebut memiliki gaya CSS yang menambahkan jarak atas sebesar 75 piksel menggunakan properti `margin-top`. Ini akan memindahkan tombol sejauh 75 piksel dari bagian atas halaman web. Dokumen HTML ini sederhana dan hanya terdiri dari satu tombol yang ditampilkan di halaman web.
 ## Margin-right
@@ -914,7 +929,8 @@ tombol dengan teks "Klik Disini!". Tombol tersebut memiliki gaya CSS yang menamb
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240305_072043.jpg)
+![gambar](Aset/IMG_20240305_072043.jpg)
+
 ### Kesimpulan
 tombol dengan teks "Klik Disini!". Tombol tersebut memiliki gaya CSS yang menambahkan jarak kanan sebesar 200% dari lebar tombol aslinya menggunakan properti `margin-right`. Ini akan memindahkan tombol ke arah kanan sejauh dua kali lebar tombol itu sendiri. Dokumen HTML ini sederhana dan hanya terdiri dari satu tombol yang ditampilkan di halaman web.
 ## Margin-bottom
@@ -933,7 +949,7 @@ tombol dengan teks "Klik Disini!". Tombol tersebut memiliki gaya CSS yang menamb
     </style>
 ```
 ### Hasil
-![gambar](IMG_20240424_131624.jpg)
+![gambar](Aset/IMG_20240424_131624.jpg)
 
 ### Kesimpulan
 untuk elemen dengan kelas "item1". Properti `margin-bottom` digunakan untuk menambahkan jarak bawah sebesar 100 piksel di antara elemen-elemen dengan kelas "item1" dan elemen-elemen lainnya di sekitarnya. Ini akan menciptakan ruang tambahan di bagian bawah elemen "item1".
@@ -952,8 +968,11 @@ button:hover{
 }
 ```
 ### Hasil
-![gambar](IMG_20240428_185457.jpg)
-![gambar](IMG_20240428_185438.jpg)
+![gambar](Aset/IMG_20240428_185457.jpg)
+
+
+![gambar](Aset/IMG_20240428_185438.jpg)
+
 ## Active
 `button:active`: adalah pseudo-class selector yang menargetkan tombol (`button`) ketika tombol tersebut sedang dalam keadaan "active", atau tombol sedang ditekan. 
 `color: yellow;`: Properti memberikan warna kuning pada teks ketika tombol sedang active atau tombol sedang ditekan. 
@@ -964,7 +983,9 @@ button:active{
 }
 ```
 ### Hasil
-![gambar](IMG_20240428_192433.jpg)
+![gambar](Aset/IMG_20240428_192433.jpg)
+
+
 ![gambar](Screenshot_2024-04-28-19-21-04-05.jpg)
 
 # Transition 
@@ -1041,9 +1062,10 @@ button:hover {
 Background color latar belakang body diatur menjadi ungu. Gaya teks paragraf (p) diatur dengan menggunakan font Times New Roman dengan ukuran 25px dan margin atas sebesar 30px. Gambar (img) diberi margin kiri 230px dan margin bawah 100px, serta diberi border hitam sebesar 5px dengan radius sudut 50%. Tombol (button) memiliki ukuran tinggi 50px dan lebar 100px, background berwarna merah, serta margin kiri sebesar 80px. Ketika tombol dihover, warnanya akan berubah menjadi putih dengan efek transisi dan transformasi.
 ### Hasil
 #### Before
-![Gambar](IMG_20240427_165600.jpg)
+![Gambar](Aset/IMG_20240427_165600.jpg)
+
 #### After
-![gambar](IMG_20240427_170559.jpg)
+![gambar](Aset/IMG_20240427_170559.jpg)
 
 # Transform
 ## Penjelasan
@@ -1062,8 +1084,10 @@ button:active{
 
 ```
 ### Hasil
-![gambar](IMG_20240428_133636.jpg)
-![gambar](IMG_20240428_133715.jpg)
+![gambar](Aset/IMG_20240428_133636.jpg)
+
+
+![gambar](Aset/IMG_20240428_133715.jpg)
 
 ### Kesimpulan 
 Ketika tombol ditekan (active state), akan terjadi penskalaan pada tombol.
@@ -1106,7 +1130,8 @@ Transformasi penskalaan ini akan membuat tombol tampak membesar secara proporsio
 </html>
  ``` 
  ### Hasil
-![gambar](iMG_20240428_135119.jpg)
+![gambar](Aset/iMG_20240428_135119.jpg)
+
 ### Kesimpulan 
 untuk mengatur tata letak elemen secara vertikal dalam sebuah kontainer div dengan kelas "item" memakai warna background color ungu.
 ### Align-Items
@@ -1179,7 +1204,7 @@ Contoh`center` untuk menempatkan flex items di tengah-tengah sumbu silang.`flex-
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240428_191334.jpg)
+![gambar](Aset/IMG_20240428_191334.jpg)
 
 ## Tantangan flexbox 
 ```html
@@ -1261,7 +1286,8 @@ img{
 </html>
 ```
 ### Hasil
-![[IMG_20240428_174353.jpg]]
+![](Aset/IMG_20240428_174353.jpg)
+
 ### Deskripsi 
 Program tersebut menggunakan properti display: flex; pada kontainer utama (main-container) dan beberapa elemen anaknya (box-container) untuk mengatur tata letak secara fleksibel. Ini memungkinkan penataan yang responsif terhadap berbagai ukuran layar dan perangkat.
 # Position
@@ -1312,7 +1338,7 @@ Program tersebut menggunakan properti display: flex; pada kontainer utama (main-
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240428_140518.jpg)
+![gambar](Aset/IMG_20240428_140518.jpg)
 
 ### Kesimpulan
 penggunaan CSS position untuk menggeser posisi elemen-1 ke bawah sejauh 50 piksel dari posisi normalnya. Elemen-2 tetap berada pada posisi normalnya.
@@ -1335,7 +1361,7 @@ item-1 {
 ```
 
 ### Hasil
-![gambar](img_20240428_141112.jpg)
+![gambar](Aset/img_20240428_141112.jpg)
 
 ### Kesimpulan
 elemen dengan kelas "item-1" akan memiliki tata letak fleksibel, latar belakang biru, lebar dan tinggi masing-masing 95 piksel, dan akan ditempatkan secara absolut dengan jarak 50 piksel dari atas kontainer terdekat yang memiliki posisi relatif atau absolut.
@@ -1358,7 +1384,8 @@ elemen dengan kelas "item-1" akan memiliki tata letak fleksibel, latar belakang 
 }
 ```
 ### Hasil
-![Gambar](IMG_20240428_143346.jpg)
+![Gambar](Aset/iMG_20240428_143346.jpg)
+
 ### Kesimpulan 
 elemen dengan kelas "item-1" akan memiliki tata letak fleksibel, latar belakang biru, lebar dan tinggi masing-masing 95 piksel, dan akan diposisikan secara tetap pada posisi 50 piksel dari atas viewport.
 ## Position Sticky
@@ -1381,7 +1408,8 @@ elemen dengan kelas "item-1" akan memiliki tata letak fleksibel, latar belakang 
 }
 ```
 ### Hasil 
-![gambar](IMG_20240428_144010.jpg)
+![gambar](Aset/IMG_20240428_144010.jpg)
+
 ### Kesimpulan 
 elemen dengan kelas "item-1" akan memiliki latar belakang biru dengan lebar dan tinggi masing-masing 95 piksel, dan akan tetap berada di dalam aliran dokumen sampai mencapai batas yang ditentukan, yaitu saat bagian atas elemen mencapai 50 piksel dari bagian atas elemen referensi.
 ## Tantangan Position
@@ -1505,6 +1533,7 @@ elemen dengan kelas "item-1" akan memiliki latar belakang biru dengan lebar dan 
 </html>
 ```
 ### Hasil
-![gambar](IMG_20240428_171510.jpg)
+![gambar](Aset/IMG_20240428_171510.jpg)
+
 ### Deskripsi
 Program tersebut menciptakan tata letak yang responsif dengan penggunaan properti CSS seperti display: flex, justify-content, dan align-items untuk mengatur tata letak flexbox. Selain itu, menggunakan properti-posisi seperti position: fixed dan top serta right untuk menempatkan tombol "Like" pada posisi tertentu di halaman web.
