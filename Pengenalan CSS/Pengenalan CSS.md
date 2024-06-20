@@ -15,7 +15,7 @@ Color: yellow
 }
 ```
 ### Hasil
-![gambar](IMG_20240304_092923.jpg)
+![gambar](Aset/IMG_20240304_092923.jpg)
 
 ### Penjelasan
 aturan gaya CSS yang mengatur penampilan elemen paragraf (`<p>`). 
@@ -224,7 +224,7 @@ Dengan demikian, ketika program dijalankan, teks di dalam paragraf akan dimulai 
 <p style="letter-spacing: 20px;">menggunakan letter spacing 20 pixel</p>
 ```
 ### Hasil
-![Gambar](IMG_20240304_105145.jpg)
+![Gambar]( IMG_20240304_105145.jpg)
 
 ### Kesimpulan
 Program tersebut menggunakan properti CSS letter-spacing pada elemen paragraf (`<p>`) dengan nilai 20px. Properti ini mengatur jarak antar huruf dalam teks pada paragraf tersebut.

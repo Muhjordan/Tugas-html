@@ -1,5 +1,5 @@
 # Anatomi CSS
-![](IMG_20240619_104031.jpg)
+![](Aset/IMG_20240619_104031.jpg)
 
 # Selector
 Selector dalam CSS adalah mekanisme yang memungkinkan Anda memilih elemen HTML yang akan diberi gaya atau diatur tampilannya. 
