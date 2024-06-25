@@ -15,7 +15,7 @@ Color: yellow
 }
 ```
 ### Hasil
-![gambar](Aset/IMG_20240304_092923.jpg)
+![gambar](Aset/IMG_20240619_104633.jpg)
 
 ### Penjelasan
 aturan gaya CSS yang mengatur penampilan elemen paragraf (`<p>`). 
@@ -41,32 +41,25 @@ font-size: 20px
 
 ### After 
 ![gambar](Aset/IMG_20240428_201302.jpg)
-
-### Before
-![gambar](Aset/IMG_20240219_121128.jpg)
-
-### After
-![gambar](Aset/iMG_20240219_121325.jpg)
-
-## Border
+### Border
 ```css
 border: none;
 ```
 ### Before
-![gambar](Aset/iMG_20240428_201302.jpg)
+![gambar](Aset/IMG_20240619_105603.jpg)
 
 ### After
-![gambar](Aset/iMG_20240428_201402.jpg)
+![gambar](Aset/IMG_20240619_110313.jpg)
 
 ## Font
 ```css
 font-weight: bold;
 ```
 ### Before
-![gambar](Aset/IMG_20240428_201402.jpg)
+![gambar](Aset/IMG_20240625_185115.jpg)
 
 #### after
-![gambar](Aset/IMG_20240428_201517.jpg)
+![gambar](Aset/IMG_20240625_185156.jpg)
 
 # Cara Pemanggilan CSS
 ## Cara Pemanggilan Secara Eksternal
@@ -211,7 +204,8 @@ Program tersebut menggunakan properti CSS text-transform pada elemen paragraf (`
     <p style="text-indent: 50px;">menggunakan text indent 50 pixel</p>
 ```
 ### Hasil
-![Gambar](Aset/IMG_20240304_104505.jpg)
+![Gambar](Aset/IMG_20240619_111725.jpg)
+
 ### Kesimpulan
 Program tersebut menggunakan properti CSS text-indent pada elemen paragraf (`<p>`) dengan nilai 50px. Properti ini digunakan untuk menetapkan indentasi teks pada awal paragraf sebesar 50 piksel dari batas kiri elemen.
 
@@ -274,7 +268,7 @@ Dengan nilai word-spacing: 15px;, program menciptakan efek peningkatan jarak ant
 </html>
 ```
 ### Hasil
-![gambar](Aset/iMG_20240304_115808.jpg)
+![gambar](Aset/IMG_20240619_114000.jpg)
 
 ### Kesimpulan
 Program tersebut mencoba mengatur background image pada elemen paragraf (`<p>`) dengan menggunakan CSS.
@@ -449,7 +443,7 @@ program tersebut menghasilkan teks "hallo world" dengan ukuran font sebesar 70 p
 ```
 
 ### Hasil
-![gambar](Aset/IMG_20240304_132401.jpg)
+![gambar](Aset/IMG_20240619_115642.jpg)
 
 ### Kesimpulan 
 memiliki satu paragraf dengan teks "hallo world". Di dalam elemen `<style>`, properti font-size diterapkan pada elemen `<p>` untuk mengatur ukuran teks sebesar 70 piksel, dan properti font-style digunakan untuk memberikan gaya miring pada teks. Akibatnya, teks "hallo world" akan ditampilkan dalam ukuran besar dan gaya miring.
@@ -632,7 +626,7 @@ Contoh penggunaan:
 </html>
 ```
 ### Hasil
-![gambar](Aset/iMG_20240304_142826.jpg)
+![gambar](Aset/IMG_20240619_120500.jpg)
 
 ### Kesimpulan 
 Program di atas menggunakan CSS untuk menentukan radius sudut border tombol. Dalam hal ini, radius sudut border diatur sebagai "15px" untuk sudut kiri atas dan sudut kanan bawah, serta "5px" untuk sudut kanan atas dan sudut kiri bawah. Sehingga, saat halaman web dijalankan, tombol "Klik Aku!" akan muncul dengan border yang memiliki radius sudut yang telah ditentukan.
@@ -718,7 +712,7 @@ button {
 
 ```margin-left: 80px;```: Memberikan jarak kiri sebesar 80 piksel pada tombol.
 ### Hasil
-![gambar](Aset/iMG_20240427_165600.jpg)
+![gambar](Aset/IMG_20240620_120104.jpg)
 
 # Materi Padding
 ## Padding-right
@@ -747,7 +741,8 @@ button {
 </html>
 ```
 ### Hasil
-![gambar](Aset/iMG_20240304_222959.jpg)
+![gambar](Aset/IMG_20240620_120747.jpg)
+
 ### Kesimpulan
 Program di atas menggunakan CSS untuk menentukan jarak padding sebelah kanan dari tombol. Dalam hal ini, padding-right diatur sebagai "100px", yang berarti akan ada jarak sebesar 100 piksel di sebelah kanan tombol "Klik Aku!". Sehingga, saat halaman web dijalankan, tombol tersebut akan muncul dengan jarak padding yang telah ditentukan di sebelah kanan
 ## Padding-left
@@ -776,7 +771,7 @@ Program di atas menggunakan CSS untuk menentukan jarak padding sebelah kanan dar
 </html>
 ```
 ### Hasil
-![gambar](Aset/IMG_20240304_223026.jpg)
+![gambar](Aset/IMG_20240625_190746.jpg)
 
 ### Kesimpulan
 Program di atas menggunakan CSS untuk menentukan jarak padding sebelah kiri dari tombol. Dalam hal ini, padding-left diatur sebagai "75px", yang berarti akan ada jarak sebesar 75 piksel di sebelah kiri tombol "Klik Aku!". Sehingga, saat halaman web dijalankan, tombol tersebut akan muncul dengan jarak padding yang telah ditentukan di sebelah kiri.
@@ -986,7 +981,7 @@ button:active{
 ![gambar](Aset/IMG_20240428_192433.jpg)
 
 
-![gambar](Screenshot_2024-04-28-19-21-04-05.jpg)
+![gambar](Aset/IMG_20240625_191311.jpg)
 
 # Transition 
 
@@ -1130,7 +1125,7 @@ Transformasi penskalaan ini akan membuat tombol tampak membesar secara proporsio
 </html>
  ``` 
  ### Hasil
-![gambar](Aset/iMG_20240428_135119.jpg)
+![gambar](Aset/IMG_20240620_124646.jpg)
 
 ### Kesimpulan 
 untuk mengatur tata letak elemen secara vertikal dalam sebuah kontainer div dengan kelas "item" memakai warna background color ungu.
@@ -1361,7 +1356,7 @@ item-1 {
 ```
 
 ### Hasil
-![gambar](Aset/img_20240428_141112.jpg)
+![gambar](Aset/IMG_20240428_141112.jpg)
 
 ### Kesimpulan
 elemen dengan kelas "item-1" akan memiliki tata letak fleksibel, latar belakang biru, lebar dan tinggi masing-masing 95 piksel, dan akan ditempatkan secara absolut dengan jarak 50 piksel dari atas kontainer terdekat yang memiliki posisi relatif atau absolut.
@@ -1408,7 +1403,7 @@ elemen dengan kelas "item-1" akan memiliki tata letak fleksibel, latar belakang 
 }
 ```
 ### Hasil 
-![gambar](Aset/IMG_20240428_144010.jpg)
+![gambar](Aset/IMG_20240428_140518.jpg)
 
 ### Kesimpulan 
 elemen dengan kelas "item-1" akan memiliki latar belakang biru dengan lebar dan tinggi masing-masing 95 piksel, dan akan tetap berada di dalam aliran dokumen sampai mencapai batas yang ditentukan, yaitu saat bagian atas elemen mencapai 50 piksel dari bagian atas elemen referensi.
