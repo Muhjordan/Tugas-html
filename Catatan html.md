@@ -64,7 +64,7 @@ Penjelasan:
 
 Apapun tag yang berada di Tag pembuka `<body>`sampai tag penutup `</body>`akan tampil di web browser
 ## Contoh tampilan di browser!
-![Gambar_Contoh](IMG_20240121_204808.jpg)
+![Gambar_Contoh](IMG_20240624_220710.jpg)
 
 # ANATOMI ELEMEN HTML
 **Elemen** adalah suatu kesatuan dan sebuah Tag yang dimulai dari ==Tag pembuka== hingga ke ==Tag penutup==. **ELEMEN** HTML secara garis besar terdiri atas tiga bagian yaitu **Tag pembuka**, **konten/Isi tag**, dan **tag penutup**
@@ -111,7 +111,8 @@ Contohnya:
 <p><h6>link ig ku 6</h6></p>
 ```
 ### Hasil Program
-![gambar_01](IMG_20240121_221434.jpg)
+![gambar_0](IMG_20240624_221322.jpg)
+
 ## Paragraf
 ### `<p>`
 `<p>` dalam html di gunakan untuk membuat paragraf teks
@@ -279,6 +280,7 @@ Dalam tag `<img>` terdapat juga atribut `weith` dan `height` untuk mengatur ukur
 
 ### Screenshot Folder
 ![gmbr](IMG_20240122_140628.jpg)
+
 
 ### 2.Video
 Fitur HTML5 mencangkup dukungan audio dan video asli tanpa memerlukan Flash.Tag `<autio>` dan `<video>` pada HTML5 mempermudah penambah media ke dalam halaman media ke dalam halaman web.yang penting untuk di atur pada tag ini adalah atribut `src` yang berfungsi untuk mengidentifikasi sumber media. Selain itu, terdapat pula atribut `controls` agar pengguna dapat memutar dan menjeda media

@@ -48,7 +48,7 @@ SELECT * FROM mobil WHERE harga_rental BETWEEN 100000 AND 200000;
 select * from mobil where harga_rental BETWEEN 100000 AND 150000;
 ```
 ## Hasil Program
-![gambar](IMG_20240220_144004.jpg)
+![gambar](Asset/IMG_20240220_144004.jpg)
 
 ## Analisis
 `SELECT` : Pernyataan SELECT ini menunjukkan bahwa kita akan mengambil semua kolom dari tabel "mobil".
@@ -67,7 +67,7 @@ select * from mobil where harga_rental NOT BETWEEN 100000 AND 150000;
 ```
 ## Hasil Program
 
-![gambar](IMG_20240220_144257.jpg)
+![gambar](Asset/IMG_20240220_144257.jpg)
 
 ## Analisis
 `SELECT` : Pernyataan SELECT ini menunjukkan bahwa kita akan mengambil semua kolom dari tabel "mobil".
@@ -87,7 +87,7 @@ SELECT FROM * mobil WHERE harga_rental <= 50000;
 select * from mobil where harga_rental <= 100000;
 ```
 ## Hasil Program
-![gambar](IMG_20240220_145125.jpg)
+![gambar](Asset/IMG_20240220_145125.jpg)
 
 ## Analisis
 `SELECT` : Pernyataan SELECT ini menunjukkan bahwa kita akan mengambil semua kolom dari tabel "mobil".
@@ -107,7 +107,7 @@ SELECT FROM * mobil WHERE harga_rental >= 50000;
 select * from mobil where harga_rental >= 100000;
 ```
 ## Hasil Program
-![gambar](IMG_20240220_145310.jpg)
+![gambar](Asset/IMG_20240220_145310.jpg)
 
 ## Analisis
 `SELECT` : Pernyataan SELECT ini menunjukkan bahwa kita akan mengambil semua kolom dari tabel "mobil".
@@ -128,7 +128,7 @@ select * from mobil where harga_rental <> 100000;
 ```
 ## Hasil Program
 
-![gambar](IMG_20240220_145422.jpg)
+![gambar](Asset/IMG_20240220_145422.jpg)
 
 ## Analisis 
 `SELECT` : Ini menunjukkan bahwa kita ingin mengambil semua kolom dari tabel "mobil".
@@ -150,7 +150,7 @@ Select kondisi from nama_tabel where kondisi="":
 Select kondisi from mobil where warna="Biru":
 ```
 ## Hasil Program
-![[IMG_20240301_073930.jpg]]
+![](IMG_20240301_073930.jpg)
 ## Analisis 
 `SELECT kondisi`: Menunjukkan bahwa hanya nilai dari kolom "kondisi" yang akan diambil.
 `FROM mobil`: Menunjukkan bahwa pengambilan data dilakukan dari tabel "mobil".

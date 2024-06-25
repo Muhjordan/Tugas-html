@@ -129,7 +129,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Eksplorasi.md",
+                "file": "Catatan html.md",
                 "mode": "source",
                 "source": false
               }
@@ -210,7 +210,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Eksplorasi.md",
+            "file": "Catatan html.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -227,7 +227,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Eksplorasi.md",
+            "file": "Catatan html.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -239,7 +239,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Eksplorasi.md"
+            "file": "Catatan html.md"
           }
         }
       }
@@ -258,9 +258,12 @@
   },
   "active": "2f6d2d19ba718cb1",
   "lastOpenFiles": [
+    "IMG_20240624_221322.jpg",
+    "BASIS DATAA/SELECT LANJUTAN.md",
+    "Catatan Basis Data.md",
+    "Eksplorasi.md",
     "IMG_20240620_151938.jpg",
     "Pengenalan CSS/Pengenalan CSS.md",
-    "Eksplorasi.md",
     "Untitled/Pengenalan CSS/Pengenalan CSS.md",
     "Pengenalan CSS/Aset/IMG_20240620_125033.jpg",
     "Pengenalan CSS/Aset/IMG_20240620_124924.jpg",
@@ -271,7 +274,6 @@
     "Pengenalan CSS/Aset/IMG_20240620_124142.jpg",
     "Pengenalan CSS/Aset/IMG_20240620_123901.jpg",
     "Pengenalan CSS/Aset/IMG_20240620_123553.jpg",
-    "Pengenalan CSS/Aset/IMG_20240620_123445.jpg",
     "Aset/i.md",
     "Aset.md",
     "Untitled/Css Responsive/CSS Responsive.pdf",
@@ -279,7 +281,6 @@
     "Pemrograman Web/Deskripsi dari HTML,CSS,JAVA SCRIPT.md",
     "Untitled/Pengenalan CSS/+.md",
     "BASIS DATAA/ALTER.md",
-    "BASIS DATAA/SELECT LANJUTAN.md",
     "BASIS DATAA/Aset",
     "ANALISIS PROGRAM UJIAN/Program Ujian.md",
     "Materi PHP/Program Pertama PHP.md",
@@ -300,7 +301,6 @@
     "IMG_20240219_132250.md",
     "Pengenalan CSS/+.md",
     "IMG_20240427_165600.md",
-    "Catatan Basis Data.md",
     "Semantic HTML/SEMANTIC HTML.pdf",
     "Semantic HTML/SEMANTIC HTML.md",
     "Semantic HTML/assets"
