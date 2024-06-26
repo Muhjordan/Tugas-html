@@ -127,11 +127,9 @@
             "id": "2f6d2d19ba718cb1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Catatan Basis Data.md",
-                "mode": "source",
-                "source": false
+                "file": "SELECT LANJUTAN (1).pdf"
               }
             }
           }
@@ -210,7 +208,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Catatan Basis Data.md",
+            "file": "SELECT LANJUTAN (1).pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -227,7 +225,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Catatan Basis Data.md",
+            "file": "SELECT LANJUTAN (1).pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -239,7 +237,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Catatan Basis Data.md"
+            "file": "SELECT LANJUTAN (1).pdf"
           }
         }
       }
@@ -258,6 +256,14 @@
   },
   "active": "2f6d2d19ba718cb1",
   "lastOpenFiles": [
+    "Pengenalan CSS.pdf",
+    "Program Pertama PHP.pdf",
+    "PhpMysql.pdf",
+    "PRAKTIKUM 10.pdf",
+    "remedial basis data.pdf",
+    "Eksplorasi.pdf",
+    "Catatan html.pdf",
+    "Catatan Basis Data.md",
     "BASIS DATAA/ALTER.md",
     "BASIS DATAA/Aset/a3.jpg",
     "BASIS DATAA/Aset/a2.jpg",
@@ -270,7 +276,6 @@
     "BASIS DATAA/Aset/IMG_31.jpg",
     "BASIS DATAA/Aset/IMG_30.jpg",
     "BASIS DATAA/Aset/IMG_29.jpg",
-    "Catatan Basis Data.md",
     "ANALISIS PROGRAM UJIAN/Program Ujian.md",
     "Catatan html.md",
     "|gambar.md",
@@ -293,15 +298,9 @@
     "Materi PHP",
     "Pesonaindo/Penjelasan Singkat.md",
     "Pesonaindo/aset",
-    "Pesonaindo/style.css",
-    "Pesonaindo/index.html",
-    "Pesonaindo",
-    "Untitled",
     "Pengenalan CSS/Aset/IMG_20240219_121325.md",
     "Pengenalan CSS/Aset/IMG_20240427_165600.md",
     "Pengenalan CSS/Aset/IMG_20240219_132250.md",
-    "IMG_20240219_132250.md",
-    "Semantic HTML/SEMANTIC HTML.pdf",
-    "Semantic HTML/assets"
+    "IMG_20240219_132250.md"
   ]
 }
