@@ -55,24 +55,16 @@
             "id": "cc1a6aec05862fe6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Catatan html.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "b444805f79ab7d4b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Catatan html.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -122,19 +114,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2f6d2d19ba718cb1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SELECT LANJUTAN (1).pdf"
-              }
-            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -208,7 +190,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "SELECT LANJUTAN (1).pdf",
+            "file": "Materi PHP/Program Pertama PHP.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -225,7 +207,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "SELECT LANJUTAN (1).pdf",
+            "file": "Materi PHP/Program Pertama PHP.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -237,7 +219,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "SELECT LANJUTAN (1).pdf"
+            "file": "Materi PHP/Program Pertama PHP.md"
           }
         }
       }
@@ -254,8 +236,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f6d2d19ba718cb1",
+  "active": "d124f008a84b8c21",
   "lastOpenFiles": [
+    "SELECT LANJUTAN (1).pdf",
+    "BASIS DATAA/Basis data/SELECT LANJUTAN (1).pdf",
     "Pengenalan CSS.pdf",
     "Program Pertama PHP.pdf",
     "PhpMysql.pdf",
@@ -295,9 +279,7 @@
     "BASIS DATAA/Basis data/Instalasi & Query awal  database.md",
     "Tugas 7 nomor.md",
     "Untitled.md",
-    "Materi PHP",
     "Pesonaindo/Penjelasan Singkat.md",
-    "Pesonaindo/aset",
     "Pengenalan CSS/Aset/IMG_20240219_121325.md",
     "Pengenalan CSS/Aset/IMG_20240427_165600.md",
     "Pengenalan CSS/Aset/IMG_20240219_132250.md",
