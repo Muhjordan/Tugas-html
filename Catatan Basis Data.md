@@ -18,7 +18,7 @@ Peranan suatu basis data di Toko Online Membantu konsumen dalam pencarian barang
 Hirarki dalam database adalah struktur organisasi data dalam database yang mengatur hubungan antara entitas atau tabel data. Dalam hirarki database, data diorganisir dalam bentuk pohon dengan satu entitas induk atau tabel utama yang memiliki beberapa entitas anak atau tabel terkait.
 
 Contoh Tabel:
- ![gambar](IMG_20240129_120023.jpg)
+ ![gambar](b1.jpg)
 ## Definisi Karakter Di database
 ### Field(kolom)
 Field Dikenal sebagai kolom dalam tabel dan menyimpan informasi khusus terkait entitas yang direpresentasikan oleh tabel.
@@ -71,7 +71,8 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 MariaDB [(none)]>
 ```
 ## Hasil
-![Gambar_00](Asset/IMG-20240123-WA0032.jpg)
+![Gambar_00](b2.jpg)
+
 ## Analisis & kesimpulan 
 **MySql**:
 Ini adalah perintah untuk mengakses shell MySQL, yaitu antarmuka command-line untuk berinteraksi dengan server MySQL.
@@ -86,23 +87,22 @@ mysql -u root memberikan akses penuh ke server MySQL dengan menggunakan pengguna
 ### Membuat Database
 Untuk membuat database di MySQL,Anda dapat menggunakan perintah **==CREATE DATABASE==** dengan nama database yang akan di buat contohnya: **==xi_rpl_1;==** .pastikan untuk memiliki hak akses yang sesuai,dan verifikasi pembuatan database dengan perintah **==SHOW DATABASE==**.
 ### HASIL PROGRAM
-![Gambr](IMG-20240127-WA0010.jpg)
-
+![Gambr](b3.jpg)
 
 
 ### Menampilkan database
 Untuk menampilkan daftar database diMySQL,anda dapat menggunakan perintah SQL **==SHOW DATABASE==**. perintah ini memberikan gambaran keseluruhan Database yang tersedia di server MySQL. Pastikan pengguna yang di gunakan memiliki izin untuk melihat database dan gunakan perintah melalui antarmuka **command-line** atau alat manajemen database seperti **phpMyAdmin** 
 ### Hasil
-![Gambar](Asset/IMG-20240127-WA0013.jpg)
+![Gambar](b4.jpg)
+
 ### Menghapus database
 Untuk menghapus sebuah database di SQL, anda dapat menggunakan perintah **==DATABASE xi_rpl_1==** (**Nama database yang akan di hapus**). Namun perlu diingat bahwa tindakan ini akan menghapus semua data yang ada di dalam database. pastikan anda memiliki backup data yang di butuhkan sebelum melanjutkan
 ### Hasil
-![Gambar](IMG-20240127-WA0012.jpg)
-
+![Gambar](b5.jpg)
 ### Menggunakan database
 Perintah use di gunakan untuk beralih atau menggunakan sebuah database tertentu di server. Perintah ini sangat berguna ketika anda bekerja dengan beberapa Database di server MySQL dan ingin fokus pada satu database dalam sesi tertentu. Contohnya: **==use xi_rpl_1;==**
 
-![Gambar](IMG-20240127-WA0011.jpg)
+![Gambar](b6.jpg)
 ## Tipe Data
 ## Angka
 -  ==INT:== Untuk menyimpan nilai bilangan bulat (integer). Misalnya, INT dapat digunakan untuk menyimpan angka seperti 1, 100, -10, dan sebagainya. 
@@ -122,7 +122,7 @@ CREATE TABLE contoh_tabel (
 );
 ```
 ### Hasil
-![Gambar_Angka](IMG_20240130_122944.jpg)
+![Gambar_Angka](b7.jpg)
 
 Dalam contoh tersebut, `id` menggunakan tipe data `INT`, `harga` menggunakan tipe data `DECIMAL `dengan presisi 10 digit dan 2 angka di belakang koma, dan `jumlah_barang` menggunakan tipe data `TINYINT.
 `
@@ -147,7 +147,7 @@ CREATE TABLE jordan_tabel (
     status ENUM('Aktif', 'Non-Aktif')
 );
 ```
-![Gambar](IMG_20240130_140630.jpg)
+![Gambar](b8.jpg)
 ## Tanggal
 
 - ***==DATE==** :  Menyimpan nilai tanggal dengan format YYYY-MM-DD.
@@ -167,7 +167,7 @@ CREATE TABLE jorr_tabel (
 ```
 
 ### Hasil
-![Gambar_Tanggal](IMG_20240130_140846.jpg)
+![Gambar_Tanggal](b9.jpg)
 
 Dalam contoh ini, kolom **==tanggal==** akan menyimpan nilai tanggal, **==waktu==** menyimpan nilai waktu, ==**datetimekolom**== menyimpan kombinasi tanggal dan waktu, dan **==timestampkolom==** akan secara otomatis diatur saat data dimasukkan atau diubah.
 
@@ -222,7 +222,7 @@ no_telp char(12) UNIQUE );
 **Contoh Query:**
 `desc pelanggan;`
 ### Hasil
-![Gambar](IMG_20240206_142504.jpg) 
+![Gambar](b10.jpg) 
 ### Analisis
 `id_pelanggan (INT):``
 
@@ -247,7 +247,8 @@ Kode SQL tersebut menciptakan tabel "Pelanggan" dengan empat kolom: `id_pelangga
 `show tables;`
 **Contoh Query:**
 `show tables;`
-![Gambar](IMG_20240206_143108.jpg)
+![Gambar](b11.jpg)
+
 ## QnA
 > [!QnA] Mengapa hanya kolom id_pelanggan yang menggunakan constraint **==PRIMARY KEY?==**
 >Premery Key bertugas membedakan nilai yang ada pada tabel seperti NIS.
@@ -329,7 +330,7 @@ UPDATE nama_tabel SET nama_kolom WHERE kondisi;
 update pelanggan set no_telp="089765445321" where id_pelanggan="3";
 ```
 **==3.Hasil==**
-![Gambar](IMG_20240213_141309.jpg)
+![Gambar](b12.jpg)
 ### Analisis
 `UPDATE pelanggan:`
 
@@ -356,7 +357,7 @@ DELETE FROM pelanggan WHERE id_pelanggan="4";
 ```
 ### Hasil
 
-![Gambar](IMG_20240213_142134.jpg)
+![Gambar](b13.jpg)
 ### Kesimpulan 
 Perintah SQL ini bertujuan untuk menghapus entri pelanggan dengan ID "4" dari basis data. Ini dapat menjadi langkah yang diperlukan jika terdapat kebutuhan untuk mengelola data pelanggan, misalnya ketika pelanggan tersebut tidak aktif atau informasi yang berkaitan perlu dihapus dari sistem
 # Delete tabel
@@ -369,7 +370,7 @@ DROP TABLE nama_table;
 DROP TABLE Percobaan;
 ```
 ### Hasil
-![gambar](IMG_20240213_144821.jpg)
+![gambar](b14.jpg)
 ### Analisis
 `DROP TABLE Percobaan;`:
 Ini adalah pernyataan SQL yang menunjukkan niat untuk menghapus tabel dari basis data. Dalam hal ini, tabel yang dihapus adalah "Percobaan". Pastikan untuk memeriksa dengan cermat karena tindakan ini permanen dan dapat mengakibatkan kehilangan data yang ada dalam tabel tersebut.

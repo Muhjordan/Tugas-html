@@ -12,7 +12,7 @@ ALTER TABLE mobil ADD batas_peminjaman varchart(10) AFTER peminjam;
 ![gambar](Aset/IMG_20240423_134638.jpg)
 
 ### After
-![gambar](Aset/iMG_20240423_134705.jpg)
+![gambar](Aset/a1.jpg)
 
 ### Analisis
 1. `ALTER TABLE mobil`: Memilih tabel yang akan dimodifikasi, yaitu tabel mobil.
@@ -91,7 +91,7 @@ ALTER deadline DROP DEFAULT;
 ### Before
 ![gambar](Aset/IMG_20240423_152321.jpg)
 ### After
-![gambar](Aset/IMG_20240423_152430.jpg)
+![gambar](Aset/a3.jpg)
 ### Analisis
 1. `ALTER TABLE`: Ini adalah perintah SQL yang digunakan untuk mengubah struktur tabel.
 2. `mobil`: Ini adalah nama tabel yang ingin Anda ubah strukturnya.
@@ -106,7 +106,7 @@ ALTER TABLE mobil DROP COLUMN deadline;
 ### Before
 ![gambar](Aset/IMG_20240423_152430.jpg)
 ### After
-![Igambar](Aset/iMG_20240423_153240.jpg)
+![Igambar](Aset/a2.jpg)
 ### Analisis
 1. `ALTER TABLE`: Ini adalah perintah SQL yang digunakan untuk mengubah struktur tabel.
 2. `mobil`: Ini adalah nama tabel yang ingin Anda ubah strukturnya.
